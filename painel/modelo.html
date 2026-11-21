@@ -64,7 +64,11 @@ a { color: #1c5cab; }
 .fx-kpi { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md) var(--cds-pad-lg); }
 .fx-kpi b { display: block; font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; }
 .fx-kpi span { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
-@media print { .fx-tabs { display: none; } .fx-tab { break-before: page; } }
+.fx-lang { margin-left: auto; display: flex; gap: 2px; align-items: center; padding: 2px; }
+.fx-langbtn { font: inherit; font-size: 13px; border: 1px solid var(--color-border-line); background: var(--color-panel); color: var(--color-fg-muted); padding: 3px 9px; cursor: pointer; }
+.fx-langbtn:first-child { border-radius: 6px 0 0 6px; } .fx-langbtn:last-child { border-radius: 0 6px 6px 0; }
+.fx-langbtn.fx-langbtn-on { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
+@media print { .fx-lang { display: none; } .fx-tabs { display: none; } .fx-tab { break-before: page; } }
 </style>
 </head>
 <body>
@@ -98,7 +102,7 @@ a { color: #1c5cab; }
   <section class="fx-sec" id="antes-depois">
     <h2>Antes e depois do filtro, no mesmo participante</h2>
     <p class="fx-note">Plataforma em azul e celular em laranja, um participante típico de cada grupo, olhos abertos. Sem filtro as duas linhas não se parecem; com o melhor filtro encontrado (0,7–1,5 Hz) passam a andar juntas. Para sobrepor as trajetórias, o celular foi convertido para cm por regressão no próprio registro.</p>
-    <img class="fx-img" src="{{FIGURA_ANTES_DEPOIS}}" alt="Trajetória e sinal AP no tempo da plataforma e do celular, sem filtro e com o filtro de 0,7 a 1,5 Hz, em um jovem, um idoso e um idoso com risco de quedas">
+    <img class="fx-img" src="{{FIGURA_ANTES_DEPOIS}}" data-src-en="{{FIGURA_ANTES_DEPOIS_EN}}" alt="Trajetória e sinal AP no tempo da plataforma e do celular, sem filtro e com o filtro de 0,7 a 1,5 Hz, em um jovem, um idoso e um idoso com risco de quedas">
   </section>
 
   <section class="fx-sec" id="nota-resumo">

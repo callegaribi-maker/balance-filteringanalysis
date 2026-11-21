@@ -4,7 +4,9 @@ Este pacote reúne tudo de uma análise do sinal de aceleração do celular, reg
 
 **Pergunta:** qual filtro deixa o sinal do celular mais útil para avaliar o equilíbrio? E como os filtros usados em estudos anteriores se saem nesses mesmos dados?
 
-**Para ver os resultados**, abra `index.html` em qualquer navegador (computador, Android ou iPhone). O arquivo funciona sozinho, sem internet.
+**Para ver os resultados**, abra `index.html` em qualquer navegador (computador, Android ou iPhone). O arquivo funciona sozinho, sem internet. O botão **PT | EN** no canto das abas troca o idioma do painel. Também dá para abrir direto em inglês com `index.html?lang=en`.
+
+*English:* open `index.html` in any browser and use the **PT | EN** switch (or add `?lang=en` to the address) to read the dashboard in English. The code, data and this README are in Portuguese.
 
 ---
 
@@ -142,12 +144,12 @@ O script roda as etapas na ordem e, no fim, recria o `index.html`. Leva cerca de
 | `04_exportar_coerencia_e_validacao.py` | transforma o resultado anterior em tabelas | `grade.csv`, `coerencia.csv`, `bandas.csv`, `cv_*.csv`, `grupo_fora.csv`, `amostra.csv` |
 | `05_filtros_da_literatura.py` | aplica e avalia os 7 filtros publicados | `literatura.csv` |
 | `06_variaveis_e_estatistica.py` | variáveis por participante e estatística | `variaveis.csv`, `stats_*.csv` |
-| `07_figura_antes_depois.py` | figura de exemplo, um participante típico por grupo | `figuras/fig_antes_depois.png` |
+| `07_figura_antes_depois.py` | figura de exemplo, um participante típico por grupo (PT e EN) | `figuras/fig_antes_depois.png`, `fig_antes_depois_en.png` |
 | `08_montar_painel.py` | junta modelo, tabelas, figura e scripts num arquivo só | `index.html` |
 
 Os resultados desta pasta foram gerados exatamente assim, a partir de `dados/`. Em relação à primeira versão da análise, feita direto nos `.mat`, as diferenças só aparecem na 4ª casa decimal, por causa do arredondamento dos sinais ao gravar os CSVs.
 
-Para mudar só o painel (textos ou gráficos), edite os arquivos da pasta `painel/` e rode `python codigo/08_montar_painel.py`. É instantâneo.
+Para mudar só o painel (textos ou gráficos), edite os arquivos da pasta `painel/` (a tradução para o inglês fica em `painel/traducao_en.js`) e rode `python codigo/08_montar_painel.py`. É instantâneo.
 
 ## 5. Abas do painel e de onde vêm os números
 
