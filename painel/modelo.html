@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Filtragem do celular × plataforma — todas as comparações</title>
+<style>
+:root {
+  --color-fg: #1f1f1e; --color-fg-muted: #6b6a63; --color-bg: #fcfcfb; --color-panel: #ffffff; --color-border-line: #e4e3dc;
+  --color-ok: #008300; --color-bad: #d03b3b;
+  --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 12px; --cds-gap-lg: 16px; --cds-gap-xl: 28px;
+  --cds-pad-xs: 4px; --cds-pad-sm: 6px; --cds-pad-md: 10px; --cds-pad-lg: 16px; --cds-radius: 8px;
+  --cds-font-size-title: 28px; --cds-font-size-heading: 18px; --cds-font-size-body: 15px; --cds-font-size-caption: 13px; --cds-font-weight-medium: 600;
+  --font-anthropic-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-anthropic-serif: Georgia, "Times New Roman", serif;
+  --cds-text-secondary: #6b6a63; --cds-chart-axis: #c9c8c0; --cds-chart-grid: #ecebe5; --cds-chart-muted: #b9b8b0; --cds-chart-reference: #8a897f;
+  --cds-chart-status-critical: #d03b3b; --cds-surface-popover: #ffffff; --cds-border: #e4e3dc; --cds-shadow-popover: 0 4px 16px rgba(0, 0, 0, .12);
+}
+html, body { margin: 0; background: var(--color-bg); }
+body { max-width: 1180px; margin: 0 auto; padding: 24px 16px 48px; -webkit-text-size-adjust: 100%; }
+.dash-select { font: inherit; font-size: 14px; color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 6px; padding: 6px 8px; max-width: 100%; }
+a { color: #1c5cab; }
+.fx-rodape { margin-top: 40px; color: var(--color-fg-muted); font-size: 12px; font-family: var(--font-anthropic-sans); }
+.fx { display: flex; flex-direction: column; gap: var(--cds-gap-xl); font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+.fx-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; }
+.fx-lead { font-size: var(--cds-font-size-body); margin: var(--cds-gap-sm) 0 0; max-width: 70ch; }
+.fx-lead b { font-variant-numeric: tabular-nums; }
+.fx-sec { display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+.fx-sec h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+.fx-note { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: 0; max-width: 80ch; }
+.fx-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); }
+.fx-controls { display: flex; flex-wrap: wrap; gap: var(--cds-gap-md); align-items: end; }
+.fx-controls label { display: flex; flex-direction: column; gap: var(--cds-gap-xs); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.fx-chart { position: relative; width: 100%; min-height: 320px; }
+.fx-chart.fx-tall { min-height: 420px; }
+.fx-chart svg text { font-size: 11px; fill: var(--cds-text-secondary); }
+.fx-chart svg .fx-cell-text { fill: var(--color-fg); font-variant-numeric: tabular-nums; }
+.fx-chart svg .fx-cell-text.fx-on-dark { fill: var(--color-bg); }
+.fx-chart .domain, .fx-chart .tick line { stroke: var(--cds-chart-axis); }
+.fx-chart .fx-grid line { stroke: var(--cds-chart-grid); }
+.fx-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); box-shadow: var(--cds-shadow-popover); border-radius: var(--cds-radius); padding: var(--cds-pad-sm) var(--cds-pad-md); font-size: var(--cds-font-size-caption); color: var(--color-fg); white-space: nowrap; z-index: 5; }
+.fx-tip div + div { color: var(--cds-text-secondary); }
+.fx-wrap { overflow-x: auto; }
+.fx-table { border-collapse: collapse; width: 100%; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.fx-table th, .fx-table td { text-align: left; padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); }
+.fx-table th { color: var(--color-fg-muted); font-weight: var(--cds-font-weight-medium); }
+.fx-table td.fx-num, .fx-table th.fx-num { text-align: right; }
+.fx-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.fx-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.fx-sw { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.fx-err { color: var(--color-bad); font-size: var(--cds-font-size-caption); }
+.fx-details summary { cursor: pointer; font-size: var(--cds-font-size-body); }
+.fx-details p { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); max-width: 80ch; }
+.fx-tabs { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); }
+.fx-tabbtn { font: inherit; font-size: var(--cds-font-size-body); background: none; border: none; border-bottom: 2px solid transparent; color: var(--color-fg-muted); padding: var(--cds-pad-sm) var(--cds-pad-md); cursor: pointer; }
+.fx-tabbtn.fx-tabbtn-on { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+.fx-tab { display: flex; flex-direction: column; gap: var(--cds-gap-xl); }
+.fx-tab[hidden] { display: none; }
+.fx-statline { font-size: var(--cds-font-size-body); margin: 0 0 var(--cds-gap-sm); font-variant-numeric: tabular-nums; }
+.fx-key { display: flex; flex-wrap: wrap; gap: var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); align-items: center; }
+.fx-dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; vertical-align: middle; margin-right: 4px; border: 2px solid; }
+.fx-img { width: 100%; height: auto; border-radius: var(--cds-radius); display: block; }
+.fx-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: var(--cds-gap-md); }
+.fx-kpi { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md) var(--cds-pad-lg); }
+.fx-kpi b { display: block; font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; }
+.fx-kpi span { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+@media print { .fx-tabs { display: none; } .fx-tab { break-before: page; } }
+</style>
+</head>
+<body>
+<div class="fx">
+  <nav class="fx-tabs" role="tablist" aria-label="Abas do painel">
+    <button class="fx-tabbtn" role="tab" aria-controls="tab-resumo">Resumo</button>
+    <button class="fx-tabbtn" role="tab" aria-controls="tab-filtro">Escolha do filtro</button>
+    <button class="fx-tabbtn" role="tab" aria-controls="tab-criterios">Coerência e critérios</button>
+    <button class="fx-tabbtn" role="tab" aria-controls="tab-validacao">Validação</button>
+    <button class="fx-tabbtn" role="tab" aria-controls="tab-grupos">Grupos</button>
+    <button class="fx-tabbtn" role="tab" aria-controls="tab-condicoes">Olhos abertos × fechados</button>
+    <button class="fx-tabbtn" role="tab" aria-controls="tab-dispositivos">Celular × plataforma</button>
+    <button class="fx-tabbtn" role="tab" aria-controls="tab-amostra">Amostra e definições</button>
+  </nav>
+
+  <!-- ===================== RESUMO ===================== -->
+  <div class="fx-tab" id="tab-resumo" role="tabpanel">
+  <header id="topo">
+    <h1 class="fx-title">Filtragem do sinal do celular × plataforma de força</h1>
+    <p class="fx-lead">Numa nota de 0 a 100, o celular sem filtro ficou com
+      <b data-draw="lead_raw">—</b>.
+      Os filtros usados em estudos anteriores ficaram entre
+      <b data-draw="lead_lit_min">—</b> e
+      <b data-draw="lead_lit_max">—</b>;
+      os que só cortam as altas frequências quase não melhoram em relação a não filtrar. O melhor filtro encontrado aqui
+      (<span data-draw="lead_best_nome">—</span>) chegou a
+      <b data-draw="lead_best">—</b>.</p>
+    <p class="fx-note">Todos os resultados usam só o celular, com tendência linear removida, 30 s por tentativa e 1 s descartado em cada borda depois de filtrar.</p>
+  </header>
+
+  <section class="fx-sec" id="antes-depois">
+    <h2>Antes e depois do filtro, no mesmo participante</h2>
+    <p class="fx-note">Plataforma em azul e celular em laranja, um participante típico de cada grupo, olhos abertos. Sem filtro as duas linhas não se parecem; com o melhor filtro encontrado (0,7–1,5 Hz) passam a andar juntas. Para sobrepor as trajetórias, o celular foi convertido para cm por regressão no próprio registro.</p>
+    <img class="fx-img" src="{{FIGURA_ANTES_DEPOIS}}" alt="Trajetória e sinal AP no tempo da plataforma e do celular, sem filtro e com o filtro de 0,7 a 1,5 Hz, em um jovem, um idoso e um idoso com risco de quedas">
+  </section>
+
+  <section class="fx-sec" id="nota-resumo">
+    <h2>Em resumo: a nota de 0 a 100 dos 440 filtros</h2>
+    <p class="fx-note">A nota junta os quatro critérios (concordância com a plataforma, confiabilidade, efeito de fechar os olhos e separação entre grupos). Cada critério vai de 0 (pior filtro) a 100 (melhor filtro) e a nota é a média dos quatro.</p>
+    <div class="fx-kpis">
+      <div class="fx-kpi"><b data-draw="kpi_raw_nota">—</b><span>Sem filtro (posição <span data-draw="kpi_raw_pos">—</span> de 440)</span></div>
+      <div class="fx-kpi"><b data-draw="kpi_lit_nota">—</b><span>Melhor filtro da literatura: <span data-draw="kpi_lit_nome">—</span> (posição equivalente <span data-draw="kpi_lit_pos">—</span>)</span></div>
+      <div class="fx-kpi"><b data-draw="kpi_top_nota">—</b><span>Melhor filtro encontrado: <span data-draw="kpi_top_nome">—</span></span></div>
+    </div>
+  </section>
+
+  <section class="fx-sec" id="literatura-sec">
+    <h2>Comparação de ranking: filtros da literatura × melhor filtro encontrado</h2>
+    <p class="fx-note">Cada filtro publicado foi aplicado aos dados e recebeu a nota na mesma escala dos 440 filtros testados; a posição é onde ele ficaria no ranking. Os estudos estão numerados de [1] a [7] pela nota, e esses números são usados em todas as abas. Passe o mouse (ou toque) para ver os quatro critérios.</p>
+    <div class="fx-card"><div class="fx-chart" id="lit-chart" data-draw="lit_chart"></div></div>
+    <div class="fx-wrap">
+      <table class="fx-table">
+        <thead><tr><th>Nº</th><th>Estudo</th><th>Filtro usado</th><th class="fx-num">Nota</th><th class="fx-num">Posição no ranking (de 440)</th><th class="fx-num">Concordância</th><th class="fx-num">Confiabilidade</th><th class="fx-num">Efeito dos olhos</th><th class="fx-num">Separação de grupos</th></tr></thead>
+        <tbody data-draw="lit_tbody"></tbody>
+      </table>
+    </div>
+  </section>
+  </div>
+
+  <!-- ===================== ESCOLHA DO FILTRO ===================== -->
+  <div class="fx-tab" id="tab-filtro" role="tabpanel" hidden>
+  <section class="fx-sec" id="importancia-sec">
+    <h2>O que mais pesa na escolha do filtro</h2>
+    <p class="fx-note">Quanto a nota média muda entre o pior e o melhor valor de cada fator. A banda (passa-alta e passa-baixa) decide quase tudo; ordem, fase e duração mudam pouco.</p>
+    <div class="fx-card"><div class="fx-chart" id="imp-chart" data-draw="imp_chart"></div></div>
+    <p class="fx-note">Nota média em cada valor do fator (o melhor valor está marcado).</p>
+    <div class="fx-card"><div class="fx-chart" id="imp-levels" data-draw="imp_levels"></div></div>
+  </section>
+
+  <section class="fx-sec" id="ranking">
+    <h2>Ranking dos 440 filtros</h2>
+    <p class="fx-note">Barras = nota. Passe o mouse para ver os quatro critérios. Em vermelho, o melhor filtro encontrado (1º lugar); em cinza, sem filtro, que aparece sempre, mesmo fora do topo. Onde cada filtro da literatura cairia está no gráfico logo abaixo.</p>
+    <div class="fx-controls">
+      <label>Ordem
+        <select class="dash-select" id="rk-ordem" aria-label="Ordem"><option value="">Todas</option><option value="2">2ª</option><option value="4">4ª</option></select>
+      </label>
+      <label>Fase
+        <select class="dash-select" id="rk-fase" aria-label="Fase"><option value="">Todas</option><option value="zero">Zero</option><option value="causal">Causal</option></select>
+      </label>
+      <label>Duração
+        <select class="dash-select" id="rk-dur" aria-label="Duração"><option value="">Todas</option><option value="30">30 s</option><option value="20">20 s</option></select>
+      </label>
+      <label>Mostrar
+        <select class="dash-select" id="rk-n" aria-label="Quantos filtros"><option value="15">15 melhores</option><option value="30">30 melhores</option><option value="60">60 melhores</option></select>
+      </label>
+    </div>
+    <div class="fx-card"><div class="fx-chart fx-tall" id="rk-chart" data-draw="rk_chart"></div></div>
+  </section>
+
+  <section class="fx-sec" id="ranking-literatura">
+    <h2>Onde os filtros da literatura cairiam no ranking</h2>
+    <p class="fx-note">Linha cinza = nota dos 440 filtros testados, do 1º ao 440º. Os pontos numerados são os filtros publicados, colocados na posição que teriam no ranking; ★ = melhor filtro encontrado. Os que só cortam altas frequências ([4] a [7]) ficam no fim, colados em "sem filtro".</p>
+    <p class="fx-note" data-draw="lit_key_4">—</p>
+    <div class="fx-card"><div class="fx-chart" id="rk-lit-chart" data-draw="rk_lit_chart"></div></div>
+  </section>
+
+  <section class="fx-sec" id="mapa-nota">
+    <h2>Mapa da nota por banda</h2>
+    <p class="fx-note">Mais escuro = nota maior. Troque ordem, fase e duração: o desenho do mapa quase não muda, porque a banda é o que importa. Contorno vermelho = melhor filtro encontrado (aparece com 4ª ordem, fase zero e 30 s).</p>
+    <div class="fx-controls">
+      <label>Ordem
+        <select class="dash-select" id="mn-ordem" aria-label="Ordem"><option value="2">2ª</option><option value="4">4ª</option></select>
+      </label>
+      <label>Fase
+        <select class="dash-select" id="mn-fase" aria-label="Fase"><option value="zero">Zero</option><option value="causal">Causal</option></select>
+      </label>
+      <label>Duração
+        <select class="dash-select" id="mn-dur" aria-label="Duração"><option value="30">30 s</option><option value="20">20 s</option></select>
+      </label>
+    </div>
+    <div class="fx-card"><div class="fx-chart fx-tall" id="mn-chart" data-draw="mn_chart"></div></div>
+  </section>
+  </div>
+
+  <!-- ===================== COERÊNCIA E CRITÉRIOS ===================== -->
+  <div class="fx-tab" id="tab-criterios" role="tabpanel" hidden>
+  <section class="fx-sec" id="coerencia-sec">
+    <h2>Em que frequências o celular acompanha a plataforma</h2>
+    <p class="fx-note">Coerência = quanto os dois sinais variam juntos em cada frequência (0 = nada em comum, 1 = idênticos). Olhos abertos, todas as tentativas. A faixa sombreada é a banda do melhor filtro encontrado (0,7–1,5 Hz); a linha pontilhada marca 0,5.</p>
+    <div class="fx-controls">
+      <label>Eixo
+        <select class="dash-select" id="coh-eixo" aria-label="Eixo"><option value="AP">Anteroposterior (AP)</option><option value="ML">Mediolateral (ML)</option></select>
+      </label>
+    </div>
+    <div class="fx-legend" data-draw="legend_groups_1">—</div>
+    <div class="fx-card"><div class="fx-chart" id="coh-chart" data-draw="coh_chart"></div></div>
+    <div class="fx-wrap">
+      <table class="fx-table">
+        <thead><tr><th>Grupo</th><th>Eixo</th><th class="fx-num">Coerência ≥ 0,5 de (Hz)</th><th class="fx-num">até (Hz)</th><th class="fx-num">Tentativas</th></tr></thead>
+        <tbody data-draw="bandas_tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="fx-sec" id="mapa">
+    <h2>Mapa de filtros: cada critério em 55 combinações</h2>
+    <p class="fx-note">Linhas = passa-alta; colunas = passa-baixa (2ª ordem, fase zero, 30 s). Contorno vermelho = banda do melhor filtro encontrado (0,7–1,5 Hz); tracejado = sem filtro; ★ = melhor valor do critério. Escolha "plataforma" para ver como a própria plataforma responde ao mesmo filtro.</p>
+    <div class="fx-controls">
+      <label>Instrumento
+        <select class="dash-select" id="mapa-inst" aria-label="Instrumento"><option value="celular">Celular</option><option value="plataforma">Plataforma</option></select>
+      </label>
+      <label>Critério
+        <select class="dash-select" id="mapa-crit" aria-label="Critério" data-draw="mapa_crit_options"></select>
+      </label>
+    </div>
+    <div class="fx-card"><div class="fx-chart fx-tall" id="mapa-chart" data-draw="mapa_chart"></div></div>
+  </section>
+
+  <section class="fx-sec" id="comparar">
+    <h2>Comparar dois filtros em todos os critérios</h2>
+    <div class="fx-controls">
+      <label>Filtro A (passa-alta–passa-baixa, Hz)
+        <select class="dash-select" id="cmp-a" aria-label="Filtro A" data-draw="cmp_a_options"></select>
+      </label>
+      <label>Filtro B
+        <select class="dash-select" id="cmp-b" aria-label="Filtro B" data-draw="cmp_b_options"></select>
+      </label>
+    </div>
+    <div class="fx-wrap">
+      <table class="fx-table" id="cmp-table">
+        <thead><tr><th>Critério</th><th class="fx-num">Celular A</th><th class="fx-num">Celular B</th><th class="fx-num">B − A</th><th class="fx-num">Plataforma A</th><th class="fx-num">Plataforma B</th></tr></thead>
+        <tbody data-draw="cmp_tbody"></tbody>
+      </table>
+    </div>
+  </section>
+  </div>
+
+  <!-- ===================== VALIDAÇÃO ===================== -->
+  <div class="fx-tab" id="tab-validacao" role="tabpanel" hidden>
+  <section class="fx-sec" id="validacao">
+    <h2>Validação cruzada: escolher em metade, testar na outra</h2>
+    <p class="fx-note">300 divisões aleatórias dos participantes em duas metades, estratificadas por grupo. Em cada divisão o filtro é escolhido numa metade e avaliado na outra. Os filtros fixos 0,1–2 e 0,2–2 Hz aparecem aqui só como candidatos de uma análise anterior, não como referência.</p>
+    <div class="fx-controls">
+      <label>Como o filtro foi escolhido
+        <select class="dash-select" id="cv-metodo" aria-label="Método de escolha"><option value="Quatro critérios">Pelos quatro critérios (posto médio)</option><option value="Só concordância">Só pela concordância com a plataforma</option></select>
+      </label>
+    </div>
+    <div class="fx-card"><div class="fx-chart fx-tall" id="cv-picks-chart" data-draw="cv_picks_chart"></div></div>
+    <p class="fx-note">Desempenho na metade de teste (ponto = mediana das 300 divisões; linha = intervalo de 95%).</p>
+    <div class="fx-controls">
+      <label>Critério
+        <select class="dash-select" id="cv-crit" aria-label="Critério da validação"><option>Concordância</option><option>Confiabilidade</option><option>Efeito de fechar os olhos</option><option>Separação entre grupos</option></select>
+      </label>
+    </div>
+    <div class="fx-card"><div class="fx-chart" id="cv-test-chart" data-draw="cv_test_chart"></div></div>
+  </section>
+
+  <section class="fx-sec" id="grupo-fora">
+    <h2>Deixar um grupo de fora</h2>
+    <p class="fx-note">O filtro é escolhido com dois grupos e avaliado no terceiro, que não participou da escolha.</p>
+    <div class="fx-wrap">
+      <table class="fx-table">
+        <thead><tr><th>Grupo de teste</th><th>Filtro escolhido</th><th>Critério</th><th class="fx-num">Escolhido</th><th class="fx-num">Sem filtro</th><th class="fx-num">Fixo 0,2–2 Hz</th><th class="fx-num">Melhor possível</th></tr></thead>
+        <tbody data-draw="fora_tbody"></tbody>
+      </table>
+    </div>
+  </section>
+  </div>
+
+  <!-- ===================== GRUPOS ===================== -->
+  <div class="fx-tab" id="tab-grupos" role="tabpanel" hidden>
+  <section class="fx-sec" id="g-sec">
+    <h2>Variáveis posturais: jovens × idosos × risco de quedas</h2>
+    <p class="fx-note">1ª tentativa (idosos) ou sessão de teste (jovens). Caixa = intervalo interquartil; traço = mediana. Estatística: Kruskal-Wallis e comparações par a par de Mann-Whitney com correção de Holm; r = tamanho do efeito (0,1 pequeno, 0,3 médio, 0,5 grande).</p>
+    <div class="fx-controls">
+      <label>Instrumento
+        <select class="dash-select" id="g-inst" aria-label="Instrumento"><option value="celular">Celular</option><option value="plataforma">Plataforma</option></select>
+      </label>
+      <label>Filtro
+        <select class="dash-select" id="g-filtro" aria-label="Filtro" data-draw="filt_opts_g"></select>
+      </label>
+      <label>Condição
+        <select class="dash-select" id="g-cond" aria-label="Condição"><option value="OA">Olhos abertos</option><option value="OF">Olhos fechados</option></select>
+      </label>
+      <label>Variável
+        <select class="dash-select" id="g-var" aria-label="Variável" data-draw="grp_var_options"></select>
+      </label>
+    </div>
+    <div class="fx-card"><div class="fx-chart" id="g-strip" data-draw="g_strip"></div></div>
+    <div class="fx-card" id="g-stats-card"><div data-draw="g_stats">—</div></div>
+  </section>
+  <section class="fx-sec" id="g-efeitos">
+    <h2>O celular encontra as mesmas diferenças entre grupos que a plataforma?</h2>
+    <p class="fx-note">ε² de cada variável na plataforma e no celular, para o filtro e a condição escolhidos acima. Bolinha cheia = p &lt; 0,05.</p>
+    <div class="fx-key" data-draw="inst_key_g">—</div>
+    <div class="fx-card"><div class="fx-chart" id="g-effects" data-draw="g_effects"></div></div>
+  </section>
+  <section class="fx-sec" id="g-todos-filtros">
+    <h2>Todos os filtros lado a lado: quanto os grupos diferem (ε²)</h2>
+    <p class="fx-note">Cada coluna é o celular com um filtro; a primeira (tracejada) é a plataforma sem filtro, a referência. Mais escuro = grupos mais diferentes; * = p &lt; 0,05 no Kruskal-Wallis. Condição escolhida acima.</p>
+    <p class="fx-note" data-draw="lit_key_1">—</p>
+    <div class="fx-card"><div class="fx-chart" id="g-filtros" data-draw="g_filtros"></div></div>
+  </section>
+  </div>
+
+  <!-- ===================== OLHOS ABERTOS × FECHADOS ===================== -->
+  <div class="fx-tab" id="tab-condicoes" role="tabpanel" hidden>
+  <section class="fx-sec" id="c-sec">
+    <h2>Olhos abertos × olhos fechados</h2>
+    <p class="fx-note">Wilcoxon pareado. Razão = mediana de OF/OA por participante. r = correlação bisserial de postos pareada (positivo = maior de olhos fechados). Em negrito, p &lt; 0,05.</p>
+    <div class="fx-controls">
+      <label>Instrumento
+        <select class="dash-select" id="c-inst" aria-label="Instrumento"><option value="celular">Celular</option><option value="plataforma">Plataforma</option></select>
+      </label>
+      <label>Filtro
+        <select class="dash-select" id="c-filtro" aria-label="Filtro" data-draw="filt_opts_c"></select>
+      </label>
+      <label>Grupo
+        <select class="dash-select" id="c-grupo" aria-label="Grupo"><option value="Todos">Todos</option><option>Jovens</option><option>Idosos</option><option>Risco de quedas</option></select>
+      </label>
+    </div>
+    <div class="fx-wrap">
+      <table class="fx-table" id="c-tabela">
+        <thead><tr><th>Variável</th><th class="fx-num">Mediana OA</th><th class="fx-num">Mediana OF</th><th class="fx-num">Razão OF/OA</th><th class="fx-num">p</th><th class="fx-num">r</th><th class="fx-num">Aumentou em</th><th>Leitura</th></tr></thead>
+        <tbody data-draw="c_table"></tbody>
+      </table>
+    </div>
+  </section>
+  <section class="fx-sec" id="c-efeitos">
+    <h2>O celular vê o mesmo efeito de fechar os olhos que a plataforma?</h2>
+    <p class="fx-note">r de cada variável na plataforma e no celular. Bolinha cheia = p &lt; 0,05.</p>
+    <div class="fx-key" data-draw="inst_key_c">—</div>
+    <div class="fx-card"><div class="fx-chart" id="c-effects" data-draw="c_effects"></div></div>
+  </section>
+  <section class="fx-sec" id="c-todos-filtros">
+    <h2>Todos os filtros lado a lado: efeito de fechar os olhos (r)</h2>
+    <p class="fx-note">Cada coluna é o celular com um filtro; a primeira (tracejada) é a plataforma sem filtro, a referência. Mais escuro = efeito maior; cor alternativa = valor negativo (maior de olhos abertos); * = p &lt; 0,05 no Wilcoxon. Grupo escolhido acima.</p>
+    <p class="fx-note" data-draw="lit_key_2">—</p>
+    <div class="fx-card"><div class="fx-chart" id="c-filtros" data-draw="c_filtros"></div></div>
+  </section>
+  <section class="fx-sec" id="c-pares">
+    <h2>Cada participante, de olhos abertos para fechados</h2>
+    <div class="fx-controls">
+      <label>Variável
+        <select class="dash-select" id="c-var" aria-label="Variável" data-draw="cond_var_options"></select>
+      </label>
+    </div>
+    <p class="fx-note">Uma linha por participante (cor = grupo; linhas que sobem mais fortes). Linha grossa = mediana.</p>
+    <div class="fx-card"><div class="fx-chart" id="c-paired" data-draw="c_paired"></div></div>
+  </section>
+  </div>
+
+  <!-- ===================== CELULAR × PLATAFORMA ===================== -->
+  <div class="fx-tab" id="tab-dispositivos" role="tabpanel" hidden>
+  <section class="fx-sec" id="d-sec">
+    <h2>Celular × plataforma em cada variável</h2>
+    <p class="fx-note">ρ de Spearman entre os dois instrumentos (participantes ordenados do mesmo jeito = 1), com cada filtro aplicado aos dois. Mais escuro = mais concordância; * = p &lt; 0,05. Jovens e idosos calculados separadamente, porque usaram celulares diferentes.</p>
+    <p class="fx-note" data-draw="lit_key_3">—</p>
+    <div class="fx-controls">
+      <label>Condição
+        <select class="dash-select" id="d-cond" aria-label="Condição"><option value="OA">Olhos abertos</option><option value="OF">Olhos fechados</option></select>
+      </label>
+      <label>Grupo
+        <select class="dash-select" id="d-grupo" aria-label="Grupo"><option value="Idosos (todos)">Idosos (com e sem risco)</option><option>Jovens</option><option>Idosos</option><option>Risco de quedas</option></select>
+      </label>
+    </div>
+    <div class="fx-card"><div class="fx-chart" id="d-rho" data-draw="d_rho"></div></div>
+  </section>
+  <section class="fx-sec" id="d-disp">
+    <h2>Participante a participante</h2>
+    <div class="fx-controls">
+      <label>Variável
+        <select class="dash-select" id="d-var" aria-label="Variável" data-draw="dev_var_options"></select>
+      </label>
+      <label>Filtro
+        <select class="dash-select" id="d-filtro" aria-label="Filtro" data-draw="filt_opts_d"></select>
+      </label>
+    </div>
+    <p class="fx-note">Cor = grupo. Nas frequências (mesma unidade nos dois instrumentos) a linha tracejada marca valores iguais.</p>
+    <div class="fx-card"><div class="fx-chart" id="d-scatter" data-draw="d_scatter"></div></div>
+  </section>
+  <section class="fx-sec" id="d-ba">
+    <h2>Frequência mediana: concordância em Hz (Bland-Altman)</h2>
+    <p class="fx-note">Só as frequências têm a mesma unidade nos dois instrumentos. Viés = média de celular − plataforma; limites = viés ± 1,96 desvio-padrão. Condição e filtro escolhidos acima.</p>
+    <div class="fx-wrap">
+      <table class="fx-table">
+        <thead><tr><th>Filtro</th><th>Grupo</th><th>Variável</th><th class="fx-num">Viés (Hz)</th><th class="fx-num">Limite inferior</th><th class="fx-num">Limite superior</th><th class="fx-num">ρ</th></tr></thead>
+        <tbody data-draw="d_ba"></tbody>
+      </table>
+    </div>
+  </section>
+  </div>
+
+  <!-- ===================== AMOSTRA E DEFINIÇÕES ===================== -->
+  <div class="fx-tab" id="tab-amostra" role="tabpanel" hidden>
+  <section class="fx-sec" id="amostra">
+    <h2>Amostra</h2>
+    <div class="fx-wrap">
+      <table class="fx-table">
+        <thead><tr><th>Grupo</th><th class="fx-num">Participantes</th><th class="fx-num">Tentativas</th><th>Protocolo</th><th>Celular</th></tr></thead>
+        <tbody data-draw="amostra_tbody"></tbody>
+      </table>
+    </div>
+    <p class="fx-note">Nas abas Grupos, Olhos abertos × fechados e Celular × plataforma, cada participante entra com a 1ª tentativa (idosos) ou a sessão de teste (jovens), para que todos os grupos tenham a mesma quantidade de registro. Um idoso com risco de quedas só tem olhos abertos.</p>
+  </section>
+  <details class="fx-details" id="definicoes">
+    <summary>Definições dos critérios</summary>
+    <p><b>Concordância</b>: média de três números — correlação ponto a ponto AP e ML entre celular e plataforma (mediana dos participantes) e correlação de Spearman da área da elipse entre participantes, dentro de cada grupo.</p>
+    <p><b>Confiabilidade</b>: ICC(3,1) do log da área do celular. Jovens: teste × reteste em dias diferentes. Idosos: três tentativas no mesmo dia.</p>
+    <p><b>Efeito de fechar os olhos</b>: d pareado do log da razão olhos fechados / olhos abertos, em cada grupo.</p>
+    <p><b>Separação entre grupos</b>: AUC da área com olhos abertos, na direção esperada (o grupo mais velho ou de maior risco oscila mais).</p>
+    <p><b>Celular</b>: nos jovens, aceleração com gravidade a 50 Hz; nos idosos, aceleração linear a 100 Hz. O ganho celular/plataforma na banda filtrada foi parecido nos dois (0,10–0,12 m/s² por cm no AP).</p>
+    <p><b>Variáveis</b>: área da elipse de 95%, RMS e amplitude (máximo − mínimo) em cada eixo, velocidade média do traçado (comprimento da trajetória ÷ tempo) e frequência mediana (metade da potência do sinal abaixo dela, até 10 Hz). No celular, as mesmas contas são feitas sobre a aceleração, por isso as unidades são de aceleração; só as frequências têm a mesma unidade nos dois instrumentos.</p>
+  </details>
+  </div>
+</div>
+<p class="fx-rodape">Painel gerado por <code>codigo/08_montar_painel.py</code> a partir das tabelas da pasta <code>resultados/</code>. Participantes identificados só por código (J = jovens, I = idosos, R = idosos com risco de quedas).</p>
+{{SCRIPTS}}
+</body>
+</html>

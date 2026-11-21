@@ -1,0 +1,372 @@
+arquivo,participante,grupo,sessao,condicao,tentativa,celular,amostras_100hz
+I04_unica_OA_t1.csv,I04,Idosos,única,OA,1,celular 100 Hz,4499
+I04_unica_OA_t2.csv,I04,Idosos,única,OA,2,celular 100 Hz,4500
+I04_unica_OA_t3.csv,I04,Idosos,única,OA,3,celular 100 Hz,4501
+I04_unica_OF_t1.csv,I04,Idosos,única,OF,1,celular 100 Hz,4500
+I04_unica_OF_t2.csv,I04,Idosos,única,OF,2,celular 100 Hz,4500
+I04_unica_OF_t3.csv,I04,Idosos,única,OF,3,celular 100 Hz,4500
+I05_unica_OA_t1.csv,I05,Idosos,única,OA,1,celular 100 Hz,4500
+I05_unica_OA_t2.csv,I05,Idosos,única,OA,2,celular 100 Hz,4499
+I05_unica_OA_t3.csv,I05,Idosos,única,OA,3,celular 100 Hz,4500
+I05_unica_OF_t1.csv,I05,Idosos,única,OF,1,celular 100 Hz,4500
+I05_unica_OF_t2.csv,I05,Idosos,única,OF,2,celular 100 Hz,4500
+I05_unica_OF_t3.csv,I05,Idosos,única,OF,3,celular 100 Hz,4500
+I06_unica_OA_t1.csv,I06,Idosos,única,OA,1,celular 100 Hz,4500
+I06_unica_OA_t2.csv,I06,Idosos,única,OA,2,celular 100 Hz,4500
+I06_unica_OA_t3.csv,I06,Idosos,única,OA,3,celular 100 Hz,4500
+I06_unica_OF_t1.csv,I06,Idosos,única,OF,1,celular 100 Hz,4500
+I06_unica_OF_t2.csv,I06,Idosos,única,OF,2,celular 100 Hz,4500
+I06_unica_OF_t3.csv,I06,Idosos,única,OF,3,celular 100 Hz,4500
+I08_unica_OA_t1.csv,I08,Idosos,única,OA,1,celular 100 Hz,4501
+I08_unica_OA_t2.csv,I08,Idosos,única,OA,2,celular 100 Hz,4500
+I08_unica_OA_t3.csv,I08,Idosos,única,OA,3,celular 100 Hz,4500
+I08_unica_OF_t1.csv,I08,Idosos,única,OF,1,celular 100 Hz,4500
+I08_unica_OF_t2.csv,I08,Idosos,única,OF,2,celular 100 Hz,4500
+I08_unica_OF_t3.csv,I08,Idosos,única,OF,3,celular 100 Hz,4500
+I12_unica_OA_t1.csv,I12,Idosos,única,OA,1,celular 100 Hz,4500
+I12_unica_OA_t2.csv,I12,Idosos,única,OA,2,celular 100 Hz,4500
+I12_unica_OA_t3.csv,I12,Idosos,única,OA,3,celular 100 Hz,4501
+I12_unica_OF_t1.csv,I12,Idosos,única,OF,1,celular 100 Hz,4500
+I12_unica_OF_t2.csv,I12,Idosos,única,OF,2,celular 100 Hz,4500
+I12_unica_OF_t3.csv,I12,Idosos,única,OF,3,celular 100 Hz,4500
+I13_unica_OA_t1.csv,I13,Idosos,única,OA,1,celular 100 Hz,4499
+I13_unica_OA_t2.csv,I13,Idosos,única,OA,2,celular 100 Hz,4500
+I13_unica_OA_t3.csv,I13,Idosos,única,OA,3,celular 100 Hz,4500
+I13_unica_OF_t1.csv,I13,Idosos,única,OF,1,celular 100 Hz,4500
+I13_unica_OF_t2.csv,I13,Idosos,única,OF,2,celular 100 Hz,4500
+I13_unica_OF_t3.csv,I13,Idosos,única,OF,3,celular 100 Hz,4501
+I14_unica_OA_t1.csv,I14,Idosos,única,OA,1,celular 100 Hz,4500
+I14_unica_OA_t2.csv,I14,Idosos,única,OA,2,celular 100 Hz,4500
+I14_unica_OA_t3.csv,I14,Idosos,única,OA,3,celular 100 Hz,4499
+I14_unica_OF_t1.csv,I14,Idosos,única,OF,1,celular 100 Hz,4501
+I14_unica_OF_t2.csv,I14,Idosos,única,OF,2,celular 100 Hz,4500
+I14_unica_OF_t3.csv,I14,Idosos,única,OF,3,celular 100 Hz,4500
+I17_unica_OA_t1.csv,I17,Idosos,única,OA,1,celular 100 Hz,4500
+I17_unica_OA_t2.csv,I17,Idosos,única,OA,2,celular 100 Hz,4500
+I17_unica_OA_t3.csv,I17,Idosos,única,OA,3,celular 100 Hz,4499
+I17_unica_OF_t1.csv,I17,Idosos,única,OF,1,celular 100 Hz,4500
+I17_unica_OF_t2.csv,I17,Idosos,única,OF,2,celular 100 Hz,4500
+I17_unica_OF_t3.csv,I17,Idosos,única,OF,3,celular 100 Hz,4501
+I22_unica_OA_t1.csv,I22,Idosos,única,OA,1,celular 100 Hz,4499
+I22_unica_OA_t2.csv,I22,Idosos,única,OA,2,celular 100 Hz,4499
+I22_unica_OA_t3.csv,I22,Idosos,única,OA,3,celular 100 Hz,4500
+I22_unica_OF_t1.csv,I22,Idosos,única,OF,1,celular 100 Hz,4500
+I22_unica_OF_t2.csv,I22,Idosos,única,OF,2,celular 100 Hz,4500
+I22_unica_OF_t3.csv,I22,Idosos,única,OF,3,celular 100 Hz,4500
+I26_unica_OA_t1.csv,I26,Idosos,única,OA,1,celular 100 Hz,4500
+I26_unica_OA_t2.csv,I26,Idosos,única,OA,2,celular 100 Hz,4500
+I26_unica_OA_t3.csv,I26,Idosos,única,OA,3,celular 100 Hz,4500
+I26_unica_OF_t1.csv,I26,Idosos,única,OF,1,celular 100 Hz,4499
+I26_unica_OF_t2.csv,I26,Idosos,única,OF,2,celular 100 Hz,4500
+I26_unica_OF_t3.csv,I26,Idosos,única,OF,3,celular 100 Hz,4500
+I01_unica_OA_t1.csv,I01,Idosos,única,OA,1,celular 100 Hz,4499
+I01_unica_OA_t2.csv,I01,Idosos,única,OA,2,celular 100 Hz,4500
+I01_unica_OA_t3.csv,I01,Idosos,única,OA,3,celular 100 Hz,4500
+I01_unica_OF_t1.csv,I01,Idosos,única,OF,1,celular 100 Hz,4500
+I01_unica_OF_t2.csv,I01,Idosos,única,OF,2,celular 100 Hz,4500
+I01_unica_OF_t3.csv,I01,Idosos,única,OF,3,celular 100 Hz,4499
+I02_unica_OA_t1.csv,I02,Idosos,única,OA,1,celular 100 Hz,4500
+I02_unica_OA_t2.csv,I02,Idosos,única,OA,2,celular 100 Hz,4500
+I02_unica_OA_t3.csv,I02,Idosos,única,OA,3,celular 100 Hz,4500
+I02_unica_OF_t1.csv,I02,Idosos,única,OF,1,celular 100 Hz,4500
+I02_unica_OF_t2.csv,I02,Idosos,única,OF,2,celular 100 Hz,4499
+I02_unica_OF_t3.csv,I02,Idosos,única,OF,3,celular 100 Hz,4500
+I03_unica_OA_t2.csv,I03,Idosos,única,OA,2,celular 100 Hz,4500
+I03_unica_OA_t1.csv,I03,Idosos,única,OA,1,celular 100 Hz,4500
+I03_unica_OA_t3.csv,I03,Idosos,única,OA,3,celular 100 Hz,4500
+I03_unica_OF_t1.csv,I03,Idosos,única,OF,1,celular 100 Hz,4500
+I03_unica_OF_t2.csv,I03,Idosos,única,OF,2,celular 100 Hz,4500
+I03_unica_OF_t3.csv,I03,Idosos,única,OF,3,celular 100 Hz,4500
+I07_unica_OA_t1.csv,I07,Idosos,única,OA,1,celular 100 Hz,4499
+I07_unica_OA_t2.csv,I07,Idosos,única,OA,2,celular 100 Hz,4500
+I07_unica_OA_t3.csv,I07,Idosos,única,OA,3,celular 100 Hz,4500
+I07_unica_OF_t1.csv,I07,Idosos,única,OF,1,celular 100 Hz,4500
+I07_unica_OF_t2.csv,I07,Idosos,única,OF,2,celular 100 Hz,4500
+I07_unica_OF_t3.csv,I07,Idosos,única,OF,3,celular 100 Hz,4500
+I09_unica_OA_t1.csv,I09,Idosos,única,OA,1,celular 100 Hz,4499
+I09_unica_OA_t2.csv,I09,Idosos,única,OA,2,celular 100 Hz,4500
+I09_unica_OA_t3.csv,I09,Idosos,única,OA,3,celular 100 Hz,4500
+I09_unica_OF_t1.csv,I09,Idosos,única,OF,1,celular 100 Hz,4500
+I09_unica_OF_t2.csv,I09,Idosos,única,OF,2,celular 100 Hz,4500
+I09_unica_OF_t3.csv,I09,Idosos,única,OF,3,celular 100 Hz,4500
+I10_unica_OA_t1.csv,I10,Idosos,única,OA,1,celular 100 Hz,4500
+I10_unica_OA_t2.csv,I10,Idosos,única,OA,2,celular 100 Hz,4500
+I10_unica_OA_t3.csv,I10,Idosos,única,OA,3,celular 100 Hz,4500
+I10_unica_OF_t1.csv,I10,Idosos,única,OF,1,celular 100 Hz,4500
+I10_unica_OF_t2.csv,I10,Idosos,única,OF,2,celular 100 Hz,4500
+I10_unica_OF_t3.csv,I10,Idosos,única,OF,3,celular 100 Hz,4500
+I11_unica_OA_t1.csv,I11,Idosos,única,OA,1,celular 100 Hz,4500
+I11_unica_OA_t2.csv,I11,Idosos,única,OA,2,celular 100 Hz,4500
+I11_unica_OA_t3.csv,I11,Idosos,única,OA,3,celular 100 Hz,4500
+I11_unica_OF_t1.csv,I11,Idosos,única,OF,1,celular 100 Hz,4500
+I11_unica_OF_t2.csv,I11,Idosos,única,OF,2,celular 100 Hz,4500
+I11_unica_OF_t3.csv,I11,Idosos,única,OF,3,celular 100 Hz,4500
+I15_unica_OA_t1.csv,I15,Idosos,única,OA,1,celular 100 Hz,4500
+I15_unica_OA_t2.csv,I15,Idosos,única,OA,2,celular 100 Hz,4500
+I15_unica_OA_t3.csv,I15,Idosos,única,OA,3,celular 100 Hz,4500
+I15_unica_OF_t1.csv,I15,Idosos,única,OF,1,celular 100 Hz,4500
+I15_unica_OF_t2.csv,I15,Idosos,única,OF,2,celular 100 Hz,4500
+I15_unica_OF_t3.csv,I15,Idosos,única,OF,3,celular 100 Hz,4501
+I16_unica_OA_t1.csv,I16,Idosos,única,OA,1,celular 100 Hz,4500
+I16_unica_OA_t2.csv,I16,Idosos,única,OA,2,celular 100 Hz,4500
+I16_unica_OA_t3.csv,I16,Idosos,única,OA,3,celular 100 Hz,4500
+I16_unica_OF_t1.csv,I16,Idosos,única,OF,1,celular 100 Hz,4500
+I16_unica_OF_t2.csv,I16,Idosos,única,OF,2,celular 100 Hz,4500
+I16_unica_OF_t3.csv,I16,Idosos,única,OF,3,celular 100 Hz,4500
+I18_unica_OA_t1.csv,I18,Idosos,única,OA,1,celular 100 Hz,4500
+I18_unica_OA_t2.csv,I18,Idosos,única,OA,2,celular 100 Hz,4500
+I18_unica_OA_t3.csv,I18,Idosos,única,OA,3,celular 100 Hz,4500
+I18_unica_OF_t1.csv,I18,Idosos,única,OF,1,celular 100 Hz,4499
+I18_unica_OF_t2.csv,I18,Idosos,única,OF,2,celular 100 Hz,4499
+I18_unica_OF_t3.csv,I18,Idosos,única,OF,3,celular 100 Hz,4499
+I19_unica_OA_t1.csv,I19,Idosos,única,OA,1,celular 100 Hz,4500
+I19_unica_OA_t2.csv,I19,Idosos,única,OA,2,celular 100 Hz,4500
+I19_unica_OA_t3.csv,I19,Idosos,única,OA,3,celular 100 Hz,4500
+I19_unica_OF_t1.csv,I19,Idosos,única,OF,1,celular 100 Hz,4499
+I19_unica_OF_t2.csv,I19,Idosos,única,OF,2,celular 100 Hz,4500
+I19_unica_OF_t3.csv,I19,Idosos,única,OF,3,celular 100 Hz,4501
+I20_unica_OA_t1.csv,I20,Idosos,única,OA,1,celular 100 Hz,4500
+I20_unica_OA_t2.csv,I20,Idosos,única,OA,2,celular 100 Hz,4500
+I20_unica_OA_t3.csv,I20,Idosos,única,OA,3,celular 100 Hz,4500
+I20_unica_OF_t1.csv,I20,Idosos,única,OF,1,celular 100 Hz,4500
+I20_unica_OF_t2.csv,I20,Idosos,única,OF,2,celular 100 Hz,4500
+I20_unica_OF_t3.csv,I20,Idosos,única,OF,3,celular 100 Hz,4500
+I21_unica_OA_t1.csv,I21,Idosos,única,OA,1,celular 100 Hz,4499
+I21_unica_OA_t2.csv,I21,Idosos,única,OA,2,celular 100 Hz,4500
+I21_unica_OA_t3.csv,I21,Idosos,única,OA,3,celular 100 Hz,4500
+I21_unica_OF_t1.csv,I21,Idosos,única,OF,1,celular 100 Hz,4500
+I21_unica_OF_t2.csv,I21,Idosos,única,OF,2,celular 100 Hz,4499
+I21_unica_OF_t3.csv,I21,Idosos,única,OF,3,celular 100 Hz,4501
+I23_unica_OA_t1.csv,I23,Idosos,única,OA,1,celular 100 Hz,4500
+I23_unica_OA_t2.csv,I23,Idosos,única,OA,2,celular 100 Hz,4500
+I23_unica_OA_t3.csv,I23,Idosos,única,OA,3,celular 100 Hz,4500
+I23_unica_OF_t1.csv,I23,Idosos,única,OF,1,celular 100 Hz,4499
+I23_unica_OF_t2.csv,I23,Idosos,única,OF,2,celular 100 Hz,4500
+I23_unica_OF_t3.csv,I23,Idosos,única,OF,3,celular 100 Hz,4501
+I24_unica_OA_t1.csv,I24,Idosos,única,OA,1,celular 100 Hz,4500
+I24_unica_OA_t2.csv,I24,Idosos,única,OA,2,celular 100 Hz,4500
+I24_unica_OA_t3.csv,I24,Idosos,única,OA,3,celular 100 Hz,4500
+I24_unica_OF_t1.csv,I24,Idosos,única,OF,1,celular 100 Hz,4500
+I24_unica_OF_t2.csv,I24,Idosos,única,OF,2,celular 100 Hz,4500
+I24_unica_OF_t3.csv,I24,Idosos,única,OF,3,celular 100 Hz,4500
+I25_unica_OA_t1.csv,I25,Idosos,única,OA,1,celular 100 Hz,4500
+I25_unica_OA_t2.csv,I25,Idosos,única,OA,2,celular 100 Hz,4500
+I25_unica_OA_t3.csv,I25,Idosos,única,OA,3,celular 100 Hz,4501
+I25_unica_OF_t1.csv,I25,Idosos,única,OF,1,celular 100 Hz,4500
+I25_unica_OF_t2.csv,I25,Idosos,única,OF,2,celular 100 Hz,4500
+I25_unica_OF_t3.csv,I25,Idosos,única,OF,3,celular 100 Hz,4500
+I27_unica_OA_t1.csv,I27,Idosos,única,OA,1,celular 100 Hz,4500
+I27_unica_OA_t2.csv,I27,Idosos,única,OA,2,celular 100 Hz,4500
+I27_unica_OA_t3.csv,I27,Idosos,única,OA,3,celular 100 Hz,4500
+I27_unica_OF_t1.csv,I27,Idosos,única,OF,1,celular 100 Hz,4500
+I27_unica_OF_t2.csv,I27,Idosos,única,OF,2,celular 100 Hz,4500
+I27_unica_OF_t3.csv,I27,Idosos,única,OF,3,celular 100 Hz,4501
+I28_unica_OA_t1.csv,I28,Idosos,única,OA,1,celular 100 Hz,4499
+I28_unica_OA_t2.csv,I28,Idosos,única,OA,2,celular 100 Hz,4500
+I28_unica_OA_t3.csv,I28,Idosos,única,OA,3,celular 100 Hz,4501
+I28_unica_OF_t1.csv,I28,Idosos,única,OF,1,celular 100 Hz,4500
+I28_unica_OF_t2.csv,I28,Idosos,única,OF,2,celular 100 Hz,4500
+I28_unica_OF_t3.csv,I28,Idosos,única,OF,3,celular 100 Hz,4500
+I29_unica_OA_t1.csv,I29,Idosos,única,OA,1,celular 100 Hz,4500
+I29_unica_OA_t2.csv,I29,Idosos,única,OA,2,celular 100 Hz,4500
+I29_unica_OA_t3.csv,I29,Idosos,única,OA,3,celular 100 Hz,4500
+I29_unica_OF_t1.csv,I29,Idosos,única,OF,1,celular 100 Hz,4500
+I29_unica_OF_t2.csv,I29,Idosos,única,OF,2,celular 100 Hz,4500
+I29_unica_OF_t3.csv,I29,Idosos,única,OF,3,celular 100 Hz,4500
+I30_unica_OA_t1.csv,I30,Idosos,única,OA,1,celular 100 Hz,4500
+I30_unica_OA_t2.csv,I30,Idosos,única,OA,2,celular 100 Hz,4499
+I30_unica_OA_t3.csv,I30,Idosos,única,OA,3,celular 100 Hz,4499
+I30_unica_OF_t1.csv,I30,Idosos,única,OF,1,celular 100 Hz,4500
+I30_unica_OF_t2.csv,I30,Idosos,única,OF,2,celular 100 Hz,4499
+I30_unica_OF_t3.csv,I30,Idosos,única,OF,3,celular 100 Hz,4499
+R01_unica_OA_t1.csv,R01,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4500
+R01_unica_OA_t2.csv,R01,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R01_unica_OA_t3.csv,R01,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R01_unica_OF_t1.csv,R01,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4500
+R01_unica_OF_t2.csv,R01,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R01_unica_OF_t3.csv,R01,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4501
+R02_unica_OA_t1.csv,R02,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4500
+R02_unica_OA_t2.csv,R02,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R02_unica_OA_t3.csv,R02,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R02_unica_OF_t1.csv,R02,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4500
+R02_unica_OF_t2.csv,R02,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R02_unica_OF_t3.csv,R02,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4500
+R03_unica_OA_t1.csv,R03,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4500
+R03_unica_OA_t2.csv,R03,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R03_unica_OA_t3.csv,R03,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4499
+R03_unica_OF_t1.csv,R03,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4499
+R03_unica_OF_t2.csv,R03,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R03_unica_OF_t3.csv,R03,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4500
+R04_unica_OA_t1.csv,R04,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4499
+R04_unica_OA_t2.csv,R04,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R04_unica_OA_t3.csv,R04,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R04_unica_OF_t1.csv,R04,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4500
+R04_unica_OF_t2.csv,R04,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R04_unica_OF_t3.csv,R04,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4500
+R05_unica_OF_t1.csv,R05,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4500
+R05_unica_OF_t2.csv,R05,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R05_unica_OF_t3.csv,R05,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4500
+R05_unica_OA_t1.csv,R05,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4500
+R05_unica_OA_t2.csv,R05,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R05_unica_OA_t3.csv,R05,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R06_unica_OA_t1.csv,R06,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4499
+R06_unica_OA_t2.csv,R06,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R06_unica_OA_t3.csv,R06,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R06_unica_OF_t1.csv,R06,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4500
+R06_unica_OF_t2.csv,R06,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R06_unica_OF_t3.csv,R06,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4500
+R07_unica_OA_t1.csv,R07,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4500
+R07_unica_OA_t2.csv,R07,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R07_unica_OA_t3.csv,R07,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R07_unica_OF_t1.csv,R07,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4501
+R07_unica_OF_t2.csv,R07,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R07_unica_OF_t3.csv,R07,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4500
+R08_unica_OA_t1.csv,R08,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4500
+R08_unica_OA_t2.csv,R08,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R08_unica_OA_t3.csv,R08,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R08_unica_OF_t1.csv,R08,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4500
+R08_unica_OF_t2.csv,R08,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R08_unica_OF_t3.csv,R08,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4500
+R09_unica_OA_t1.csv,R09,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4500
+R09_unica_OA_t2.csv,R09,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R09_unica_OA_t3.csv,R09,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R09_unica_OF_t1.csv,R09,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4501
+R09_unica_OF_t2.csv,R09,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R09_unica_OF_t3.csv,R09,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4500
+R10_unica_OA_t1.csv,R10,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4499
+R10_unica_OA_t2.csv,R10,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R10_unica_OA_t3.csv,R10,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R11_unica_OA_t1.csv,R11,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4500
+R11_unica_OA_t2.csv,R11,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R11_unica_OA_t3.csv,R11,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R11_unica_OF_t1.csv,R11,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4499
+R11_unica_OF_t2.csv,R11,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R11_unica_OF_t3.csv,R11,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4500
+R12_unica_OA_t1.csv,R12,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4501
+R12_unica_OA_t2.csv,R12,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R12_unica_OA_t3.csv,R12,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4501
+R12_unica_OF_t1.csv,R12,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4500
+R12_unica_OF_t2.csv,R12,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R12_unica_OF_t3.csv,R12,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4499
+R13_unica_OA_t1.csv,R13,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4501
+R13_unica_OA_t2.csv,R13,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R13_unica_OA_t3.csv,R13,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R13_unica_OF_t1.csv,R13,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4500
+R13_unica_OF_t2.csv,R13,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R13_unica_OF_t3.csv,R13,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4500
+R14_unica_OA_t1.csv,R14,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4500
+R14_unica_OA_t2.csv,R14,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R14_unica_OA_t3.csv,R14,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R14_unica_OF_t1.csv,R14,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4501
+R14_unica_OF_t2.csv,R14,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R14_unica_OF_t3.csv,R14,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4500
+R15_unica_OA_t1.csv,R15,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4500
+R15_unica_OA_t2.csv,R15,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R15_unica_OA_t3.csv,R15,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R15_unica_OF_t1.csv,R15,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4500
+R15_unica_OF_t2.csv,R15,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R15_unica_OF_t3.csv,R15,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4500
+R16_unica_OA_t1.csv,R16,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4500
+R16_unica_OA_t2.csv,R16,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R16_unica_OA_t3.csv,R16,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R16_unica_OF_t1.csv,R16,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4500
+R16_unica_OF_t2.csv,R16,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R16_unica_OF_t3.csv,R16,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4500
+R17_unica_OA_t1.csv,R17,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4500
+R17_unica_OA_t2.csv,R17,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R17_unica_OA_t3.csv,R17,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R17_unica_OF_t1.csv,R17,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4500
+R17_unica_OF_t2.csv,R17,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R17_unica_OF_t3.csv,R17,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4500
+R18_unica_OA_t1.csv,R18,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4500
+R18_unica_OA_t2.csv,R18,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R18_unica_OA_t3.csv,R18,Idosos com risco de quedas,única,OA,3,celular 100 Hz,4500
+R18_unica_OF_t1.csv,R18,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4500
+R18_unica_OF_t2.csv,R18,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+R18_unica_OF_t3.csv,R18,Idosos com risco de quedas,única,OF,3,celular 100 Hz,4500
+R19_unica_OA_t1.csv,R19,Idosos com risco de quedas,única,OA,1,celular 100 Hz,4500
+R19_unica_OA_t2.csv,R19,Idosos com risco de quedas,única,OA,2,celular 100 Hz,4500
+R19_unica_OF_t1.csv,R19,Idosos com risco de quedas,única,OF,1,celular 100 Hz,4500
+R19_unica_OF_t2.csv,R19,Idosos com risco de quedas,única,OF,2,celular 100 Hz,4500
+J01_teste_OA_t1.csv,J01,Jovens,teste,OA,1,celular 50 Hz,3000
+J01_teste_OF_t1.csv,J01,Jovens,teste,OF,1,celular 50 Hz,3000
+J02_teste_OA_t1.csv,J02,Jovens,teste,OA,1,celular 50 Hz,2999
+J02_teste_OF_t1.csv,J02,Jovens,teste,OF,1,celular 50 Hz,3000
+J03_teste_OA_t1.csv,J03,Jovens,teste,OA,1,celular 50 Hz,3000
+J03_teste_OF_t1.csv,J03,Jovens,teste,OF,1,celular 50 Hz,2999
+J04_teste_OA_t1.csv,J04,Jovens,teste,OA,1,celular 50 Hz,3000
+J04_teste_OF_t1.csv,J04,Jovens,teste,OF,1,celular 50 Hz,3001
+J05_teste_OA_t1.csv,J05,Jovens,teste,OA,1,celular 50 Hz,2999
+J05_teste_OF_t1.csv,J05,Jovens,teste,OF,1,celular 50 Hz,2999
+J06_teste_OF_t1.csv,J06,Jovens,teste,OF,1,celular 50 Hz,3000
+J06_teste_OA_t1.csv,J06,Jovens,teste,OA,1,celular 50 Hz,3000
+J07_teste_OA_t1.csv,J07,Jovens,teste,OA,1,celular 50 Hz,2999
+J07_teste_OF_t1.csv,J07,Jovens,teste,OF,1,celular 50 Hz,2999
+J08_teste_OA_t1.csv,J08,Jovens,teste,OA,1,celular 50 Hz,3000
+J08_teste_OF_t1.csv,J08,Jovens,teste,OF,1,celular 50 Hz,2999
+J09_teste_OA_t1.csv,J09,Jovens,teste,OA,1,celular 50 Hz,3000
+J09_teste_OF_t1.csv,J09,Jovens,teste,OF,1,celular 50 Hz,3000
+J10_teste_OA_t1.csv,J10,Jovens,teste,OA,1,celular 50 Hz,3000
+J10_teste_OF_t1.csv,J10,Jovens,teste,OF,1,celular 50 Hz,2999
+J11_teste_OA_t1.csv,J11,Jovens,teste,OA,1,celular 50 Hz,2999
+J11_teste_OF_t1.csv,J11,Jovens,teste,OF,1,celular 50 Hz,2999
+J12_teste_OA_t1.csv,J12,Jovens,teste,OA,1,celular 50 Hz,2999
+J12_teste_OF_t1.csv,J12,Jovens,teste,OF,1,celular 50 Hz,3001
+J13_teste_OA_t1.csv,J13,Jovens,teste,OA,1,celular 50 Hz,2999
+J13_teste_OF_t1.csv,J13,Jovens,teste,OF,1,celular 50 Hz,3000
+J14_teste_OF_t1.csv,J14,Jovens,teste,OF,1,celular 50 Hz,3000
+J14_teste_OA_t1.csv,J14,Jovens,teste,OA,1,celular 50 Hz,2999
+J15_teste_OF_t1.csv,J15,Jovens,teste,OF,1,celular 50 Hz,3000
+J15_teste_OA_t1.csv,J15,Jovens,teste,OA,1,celular 50 Hz,3000
+J16_teste_OA_t1.csv,J16,Jovens,teste,OA,1,celular 50 Hz,3000
+J16_teste_OF_t1.csv,J16,Jovens,teste,OF,1,celular 50 Hz,2999
+J17_teste_OF_t1.csv,J17,Jovens,teste,OF,1,celular 50 Hz,2999
+J17_teste_OA_t1.csv,J17,Jovens,teste,OA,1,celular 50 Hz,2999
+J18_teste_OF_t1.csv,J18,Jovens,teste,OF,1,celular 50 Hz,2999
+J18_teste_OA_t1.csv,J18,Jovens,teste,OA,1,celular 50 Hz,2999
+J19_teste_OA_t1.csv,J19,Jovens,teste,OA,1,celular 50 Hz,2999
+J19_teste_OF_t1.csv,J19,Jovens,teste,OF,1,celular 50 Hz,2999
+J20_teste_OA_t1.csv,J20,Jovens,teste,OA,1,celular 50 Hz,3000
+J20_teste_OF_t1.csv,J20,Jovens,teste,OF,1,celular 50 Hz,3000
+J21_teste_OA_t1.csv,J21,Jovens,teste,OA,1,celular 50 Hz,3000
+J21_teste_OF_t1.csv,J21,Jovens,teste,OF,1,celular 50 Hz,3000
+J22_teste_OA_t1.csv,J22,Jovens,teste,OA,1,celular 50 Hz,2999
+J22_teste_OF_t1.csv,J22,Jovens,teste,OF,1,celular 50 Hz,3000
+J23_teste_OF_t1.csv,J23,Jovens,teste,OF,1,celular 50 Hz,2999
+J23_teste_OA_t1.csv,J23,Jovens,teste,OA,1,celular 50 Hz,3000
+J24_teste_OA_t1.csv,J24,Jovens,teste,OA,1,celular 50 Hz,3000
+J24_teste_OF_t1.csv,J24,Jovens,teste,OF,1,celular 50 Hz,2999
+J25_teste_OA_t1.csv,J25,Jovens,teste,OA,1,celular 50 Hz,2999
+J25_teste_OF_t1.csv,J25,Jovens,teste,OF,1,celular 50 Hz,2999
+J26_teste_OF_t1.csv,J26,Jovens,teste,OF,1,celular 50 Hz,2999
+J26_teste_OA_t1.csv,J26,Jovens,teste,OA,1,celular 50 Hz,2999
+J27_teste_OF_t1.csv,J27,Jovens,teste,OF,1,celular 50 Hz,2999
+J27_teste_OA_t1.csv,J27,Jovens,teste,OA,1,celular 50 Hz,2999
+J01_reteste_OA_t1.csv,J01,Jovens,reteste,OA,1,celular 50 Hz,2999
+J01_reteste_OF_t1.csv,J01,Jovens,reteste,OF,1,celular 50 Hz,2999
+J03_reteste_OA_t1.csv,J03,Jovens,reteste,OA,1,celular 50 Hz,3000
+J03_reteste_OF_t1.csv,J03,Jovens,reteste,OF,1,celular 50 Hz,2999
+J04_reteste_OF_t1.csv,J04,Jovens,reteste,OF,1,celular 50 Hz,3000
+J04_reteste_OA_t1.csv,J04,Jovens,reteste,OA,1,celular 50 Hz,2999
+J06_reteste_OA_t1.csv,J06,Jovens,reteste,OA,1,celular 50 Hz,3000
+J06_reteste_OF_t1.csv,J06,Jovens,reteste,OF,1,celular 50 Hz,2999
+J10_reteste_OA_t1.csv,J10,Jovens,reteste,OA,1,celular 50 Hz,3000
+J10_reteste_OF_t1.csv,J10,Jovens,reteste,OF,1,celular 50 Hz,3000
+J11_reteste_OF_t1.csv,J11,Jovens,reteste,OF,1,celular 50 Hz,3000
+J11_reteste_OA_t1.csv,J11,Jovens,reteste,OA,1,celular 50 Hz,3000
+J13_reteste_OA_t1.csv,J13,Jovens,reteste,OA,1,celular 50 Hz,3000
+J13_reteste_OF_t1.csv,J13,Jovens,reteste,OF,1,celular 50 Hz,2999
+J15_reteste_OA_t1.csv,J15,Jovens,reteste,OA,1,celular 50 Hz,3000
+J15_reteste_OF_t1.csv,J15,Jovens,reteste,OF,1,celular 50 Hz,2999
+J16_reteste_OF_t1.csv,J16,Jovens,reteste,OF,1,celular 50 Hz,2999
+J16_reteste_OA_t1.csv,J16,Jovens,reteste,OA,1,celular 50 Hz,2999
+J17_reteste_OA_t1.csv,J17,Jovens,reteste,OA,1,celular 50 Hz,2999
+J17_reteste_OF_t1.csv,J17,Jovens,reteste,OF,1,celular 50 Hz,3000
+J19_reteste_OA_t1.csv,J19,Jovens,reteste,OA,1,celular 50 Hz,3000
+J19_reteste_OF_t1.csv,J19,Jovens,reteste,OF,1,celular 50 Hz,3000
+J23_reteste_OF_t1.csv,J23,Jovens,reteste,OF,1,celular 50 Hz,3000
+J23_reteste_OA_t1.csv,J23,Jovens,reteste,OA,1,celular 50 Hz,3000
+J24_reteste_OA_t1.csv,J24,Jovens,reteste,OA,1,celular 50 Hz,2999
+J24_reteste_OF_t1.csv,J24,Jovens,reteste,OF,1,celular 50 Hz,2999
+J27_reteste_OA_t1.csv,J27,Jovens,reteste,OA,1,celular 50 Hz,3000
+J27_reteste_OF_t1.csv,J27,Jovens,reteste,OF,1,celular 50 Hz,3000

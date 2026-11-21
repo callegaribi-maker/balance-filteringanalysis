@@ -1,0 +1,1225 @@
+grupo,eixo,frequencia_hz,coerencia
+Jovens,AP,0.0977,0.7218
+Jovens,AP,0.1953,0.7102
+Jovens,AP,0.2930,0.5941
+Jovens,AP,0.3906,0.5839
+Jovens,AP,0.4883,0.5750
+Jovens,AP,0.5859,0.6143
+Jovens,AP,0.6836,0.6532
+Jovens,AP,0.7812,0.6015
+Jovens,AP,0.8789,0.6267
+Jovens,AP,0.9766,0.6854
+Jovens,AP,1.0742,0.6477
+Jovens,AP,1.1719,0.5914
+Jovens,AP,1.2695,0.5297
+Jovens,AP,1.3672,0.4724
+Jovens,AP,1.4648,0.4499
+Jovens,AP,1.5625,0.4733
+Jovens,AP,1.6602,0.4829
+Jovens,AP,1.7578,0.4596
+Jovens,AP,1.8555,0.4377
+Jovens,AP,1.9531,0.4297
+Jovens,AP,2.0508,0.4266
+Jovens,AP,2.1484,0.3297
+Jovens,AP,2.2461,0.3754
+Jovens,AP,2.3438,0.3326
+Jovens,AP,2.4414,0.3053
+Jovens,AP,2.5391,0.3125
+Jovens,AP,2.6367,0.3667
+Jovens,AP,2.7344,0.3061
+Jovens,AP,2.8320,0.2972
+Jovens,AP,2.9297,0.3145
+Jovens,AP,3.0273,0.3141
+Jovens,AP,3.1250,0.3020
+Jovens,AP,3.2227,0.3517
+Jovens,AP,3.3203,0.2984
+Jovens,AP,3.4180,0.2540
+Jovens,AP,3.5156,0.3037
+Jovens,AP,3.6133,0.2843
+Jovens,AP,3.7109,0.2311
+Jovens,AP,3.8086,0.2751
+Jovens,AP,3.9062,0.2743
+Jovens,AP,4.0039,0.2357
+Jovens,AP,4.1016,0.2167
+Jovens,AP,4.1992,0.2680
+Jovens,AP,4.2969,0.3100
+Jovens,AP,4.3945,0.2549
+Jovens,AP,4.4922,0.2288
+Jovens,AP,4.5898,0.1655
+Jovens,AP,4.6875,0.2175
+Jovens,AP,4.7852,0.2287
+Jovens,AP,4.8828,0.3225
+Jovens,AP,4.9805,0.1923
+Jovens,AP,5.0781,0.2727
+Jovens,AP,5.1758,0.2729
+Jovens,AP,5.2734,0.2604
+Jovens,AP,5.3711,0.3406
+Jovens,AP,5.4688,0.3523
+Jovens,AP,5.5664,0.2395
+Jovens,AP,5.6641,0.2255
+Jovens,AP,5.7617,0.2730
+Jovens,AP,5.8594,0.2505
+Jovens,AP,5.9570,0.1942
+Jovens,AP,6.0547,0.2522
+Jovens,AP,6.1523,0.3823
+Jovens,AP,6.2500,0.3144
+Jovens,AP,6.3477,0.2693
+Jovens,AP,6.4453,0.2476
+Jovens,AP,6.5430,0.2853
+Jovens,AP,6.6406,0.2256
+Jovens,AP,6.7383,0.2659
+Jovens,AP,6.8359,0.2489
+Jovens,AP,6.9336,0.2706
+Jovens,AP,7.0312,0.2688
+Jovens,AP,7.1289,0.2437
+Jovens,AP,7.2266,0.2544
+Jovens,AP,7.3242,0.2827
+Jovens,AP,7.4219,0.3085
+Jovens,AP,7.5195,0.2828
+Jovens,AP,7.6172,0.2156
+Jovens,AP,7.7148,0.2484
+Jovens,AP,7.8125,0.2847
+Jovens,AP,7.9102,0.2882
+Jovens,AP,8.0078,0.3134
+Jovens,AP,8.1055,0.3490
+Jovens,AP,8.2031,0.2829
+Jovens,AP,8.3008,0.2778
+Jovens,AP,8.3984,0.1788
+Jovens,AP,8.4961,0.2563
+Jovens,AP,8.5938,0.3207
+Jovens,AP,8.6914,0.3029
+Jovens,AP,8.7891,0.2566
+Jovens,AP,8.8867,0.2652
+Jovens,AP,8.9844,0.3040
+Jovens,AP,9.0820,0.2810
+Jovens,AP,9.1797,0.2646
+Jovens,AP,9.2773,0.2545
+Jovens,AP,9.3750,0.2453
+Jovens,AP,9.4727,0.2467
+Jovens,AP,9.5703,0.3141
+Jovens,AP,9.6680,0.3028
+Jovens,AP,9.7656,0.3961
+Jovens,AP,9.8633,0.3032
+Jovens,AP,9.9609,0.1894
+Jovens,AP,10.0586,0.3330
+Jovens,AP,10.1562,0.2431
+Jovens,AP,10.2539,0.3136
+Jovens,AP,10.3516,0.2060
+Jovens,AP,10.4492,0.3110
+Jovens,AP,10.5469,0.2578
+Jovens,AP,10.6445,0.2621
+Jovens,AP,10.7422,0.2512
+Jovens,AP,10.8398,0.2632
+Jovens,AP,10.9375,0.2538
+Jovens,AP,11.0352,0.2679
+Jovens,AP,11.1328,0.3066
+Jovens,AP,11.2305,0.2945
+Jovens,AP,11.3281,0.2859
+Jovens,AP,11.4258,0.3044
+Jovens,AP,11.5234,0.2956
+Jovens,AP,11.6211,0.2776
+Jovens,AP,11.7188,0.2467
+Jovens,AP,11.8164,0.2804
+Jovens,AP,11.9141,0.2614
+Jovens,AP,12.0117,0.2767
+Jovens,AP,12.1094,0.2684
+Jovens,AP,12.2070,0.2602
+Jovens,AP,12.3047,0.1904
+Jovens,AP,12.4023,0.2524
+Jovens,AP,12.5000,0.1854
+Jovens,AP,12.5977,0.2579
+Jovens,AP,12.6953,0.2755
+Jovens,AP,12.7930,0.2368
+Jovens,AP,12.8906,0.2816
+Jovens,AP,12.9883,0.2569
+Jovens,AP,13.0859,0.2593
+Jovens,AP,13.1836,0.2202
+Jovens,AP,13.2812,0.2913
+Jovens,AP,13.3789,0.3240
+Jovens,AP,13.4766,0.3573
+Jovens,AP,13.5742,0.3109
+Jovens,AP,13.6719,0.2994
+Jovens,AP,13.7695,0.3331
+Jovens,AP,13.8672,0.2450
+Jovens,AP,13.9648,0.2255
+Jovens,AP,14.0625,0.1882
+Jovens,AP,14.1602,0.3135
+Jovens,AP,14.2578,0.2407
+Jovens,AP,14.3555,0.2530
+Jovens,AP,14.4531,0.2238
+Jovens,AP,14.5508,0.2120
+Jovens,AP,14.6484,0.1963
+Jovens,AP,14.7461,0.3041
+Jovens,AP,14.8438,0.2488
+Jovens,AP,14.9414,0.2827
+Jovens,AP,15.0391,0.3054
+Jovens,AP,15.1367,0.2992
+Jovens,AP,15.2344,0.2983
+Jovens,AP,15.3320,0.2843
+Jovens,AP,15.4297,0.2466
+Jovens,AP,15.5273,0.2720
+Jovens,AP,15.6250,0.2686
+Jovens,AP,15.7227,0.2987
+Jovens,AP,15.8203,0.2807
+Jovens,AP,15.9180,0.2377
+Jovens,AP,16.0156,0.2221
+Jovens,AP,16.1133,0.2674
+Jovens,AP,16.2109,0.2446
+Jovens,AP,16.3086,0.2713
+Jovens,AP,16.4062,0.2105
+Jovens,AP,16.5039,0.2529
+Jovens,AP,16.6016,0.1763
+Jovens,AP,16.6992,0.2354
+Jovens,AP,16.7969,0.2428
+Jovens,AP,16.8945,0.2056
+Jovens,AP,16.9922,0.1844
+Jovens,AP,17.0898,0.3041
+Jovens,AP,17.1875,0.2492
+Jovens,AP,17.2852,0.2524
+Jovens,AP,17.3828,0.2338
+Jovens,AP,17.4805,0.2692
+Jovens,AP,17.5781,0.2837
+Jovens,AP,17.6758,0.2877
+Jovens,AP,17.7734,0.3004
+Jovens,AP,17.8711,0.2117
+Jovens,AP,17.9688,0.2147
+Jovens,AP,18.0664,0.2570
+Jovens,AP,18.1641,0.2809
+Jovens,AP,18.2617,0.2454
+Jovens,AP,18.3594,0.2708
+Jovens,AP,18.4570,0.2024
+Jovens,AP,18.5547,0.2554
+Jovens,AP,18.6523,0.3281
+Jovens,AP,18.7500,0.2306
+Jovens,AP,18.8477,0.1884
+Jovens,AP,18.9453,0.2510
+Jovens,AP,19.0430,0.2183
+Jovens,AP,19.1406,0.2492
+Jovens,AP,19.2383,0.2147
+Jovens,AP,19.3359,0.2166
+Jovens,AP,19.4336,0.2148
+Jovens,AP,19.5312,0.2459
+Jovens,AP,19.6289,0.2881
+Jovens,AP,19.7266,0.3490
+Jovens,AP,19.8242,0.2580
+Jovens,AP,19.9219,0.2571
+Jovens,ML,0.0977,0.6100
+Jovens,ML,0.1953,0.5806
+Jovens,ML,0.2930,0.6372
+Jovens,ML,0.3906,0.7347
+Jovens,ML,0.4883,0.7597
+Jovens,ML,0.5859,0.7624
+Jovens,ML,0.6836,0.7548
+Jovens,ML,0.7812,0.7399
+Jovens,ML,0.8789,0.7225
+Jovens,ML,0.9766,0.6042
+Jovens,ML,1.0742,0.4989
+Jovens,ML,1.1719,0.5065
+Jovens,ML,1.2695,0.4722
+Jovens,ML,1.3672,0.4286
+Jovens,ML,1.4648,0.4477
+Jovens,ML,1.5625,0.4036
+Jovens,ML,1.6602,0.3252
+Jovens,ML,1.7578,0.2961
+Jovens,ML,1.8555,0.3164
+Jovens,ML,1.9531,0.3360
+Jovens,ML,2.0508,0.2566
+Jovens,ML,2.1484,0.2093
+Jovens,ML,2.2461,0.2786
+Jovens,ML,2.3438,0.2531
+Jovens,ML,2.4414,0.2220
+Jovens,ML,2.5391,0.2946
+Jovens,ML,2.6367,0.2233
+Jovens,ML,2.7344,0.2647
+Jovens,ML,2.8320,0.2352
+Jovens,ML,2.9297,0.3321
+Jovens,ML,3.0273,0.2853
+Jovens,ML,3.1250,0.2631
+Jovens,ML,3.2227,0.2195
+Jovens,ML,3.3203,0.3126
+Jovens,ML,3.4180,0.3092
+Jovens,ML,3.5156,0.2252
+Jovens,ML,3.6133,0.3069
+Jovens,ML,3.7109,0.2925
+Jovens,ML,3.8086,0.2971
+Jovens,ML,3.9062,0.2740
+Jovens,ML,4.0039,0.2778
+Jovens,ML,4.1016,0.3140
+Jovens,ML,4.1992,0.3282
+Jovens,ML,4.2969,0.3329
+Jovens,ML,4.3945,0.3362
+Jovens,ML,4.4922,0.2918
+Jovens,ML,4.5898,0.2650
+Jovens,ML,4.6875,0.3025
+Jovens,ML,4.7852,0.2552
+Jovens,ML,4.8828,0.2542
+Jovens,ML,4.9805,0.2298
+Jovens,ML,5.0781,0.2222
+Jovens,ML,5.1758,0.2393
+Jovens,ML,5.2734,0.2387
+Jovens,ML,5.3711,0.3124
+Jovens,ML,5.4688,0.2689
+Jovens,ML,5.5664,0.2774
+Jovens,ML,5.6641,0.3176
+Jovens,ML,5.7617,0.2934
+Jovens,ML,5.8594,0.2663
+Jovens,ML,5.9570,0.2805
+Jovens,ML,6.0547,0.3366
+Jovens,ML,6.1523,0.2667
+Jovens,ML,6.2500,0.2636
+Jovens,ML,6.3477,0.2538
+Jovens,ML,6.4453,0.2801
+Jovens,ML,6.5430,0.1847
+Jovens,ML,6.6406,0.2853
+Jovens,ML,6.7383,0.2553
+Jovens,ML,6.8359,0.2182
+Jovens,ML,6.9336,0.2969
+Jovens,ML,7.0312,0.3226
+Jovens,ML,7.1289,0.3386
+Jovens,ML,7.2266,0.3068
+Jovens,ML,7.3242,0.2267
+Jovens,ML,7.4219,0.2914
+Jovens,ML,7.5195,0.2548
+Jovens,ML,7.6172,0.2996
+Jovens,ML,7.7148,0.3584
+Jovens,ML,7.8125,0.2903
+Jovens,ML,7.9102,0.2601
+Jovens,ML,8.0078,0.2387
+Jovens,ML,8.1055,0.2721
+Jovens,ML,8.2031,0.2118
+Jovens,ML,8.3008,0.2813
+Jovens,ML,8.3984,0.2461
+Jovens,ML,8.4961,0.2652
+Jovens,ML,8.5938,0.2270
+Jovens,ML,8.6914,0.2208
+Jovens,ML,8.7891,0.2689
+Jovens,ML,8.8867,0.2112
+Jovens,ML,8.9844,0.2674
+Jovens,ML,9.0820,0.2804
+Jovens,ML,9.1797,0.2614
+Jovens,ML,9.2773,0.2670
+Jovens,ML,9.3750,0.2632
+Jovens,ML,9.4727,0.2301
+Jovens,ML,9.5703,0.2686
+Jovens,ML,9.6680,0.2598
+Jovens,ML,9.7656,0.2183
+Jovens,ML,9.8633,0.2729
+Jovens,ML,9.9609,0.2676
+Jovens,ML,10.0586,0.2934
+Jovens,ML,10.1562,0.2607
+Jovens,ML,10.2539,0.2326
+Jovens,ML,10.3516,0.2099
+Jovens,ML,10.4492,0.2471
+Jovens,ML,10.5469,0.2758
+Jovens,ML,10.6445,0.2347
+Jovens,ML,10.7422,0.2912
+Jovens,ML,10.8398,0.2933
+Jovens,ML,10.9375,0.3036
+Jovens,ML,11.0352,0.2270
+Jovens,ML,11.1328,0.2096
+Jovens,ML,11.2305,0.2341
+Jovens,ML,11.3281,0.2452
+Jovens,ML,11.4258,0.3199
+Jovens,ML,11.5234,0.3046
+Jovens,ML,11.6211,0.2449
+Jovens,ML,11.7188,0.1447
+Jovens,ML,11.8164,0.2091
+Jovens,ML,11.9141,0.2187
+Jovens,ML,12.0117,0.2321
+Jovens,ML,12.1094,0.2485
+Jovens,ML,12.2070,0.2816
+Jovens,ML,12.3047,0.2088
+Jovens,ML,12.4023,0.2599
+Jovens,ML,12.5000,0.2715
+Jovens,ML,12.5977,0.1968
+Jovens,ML,12.6953,0.2573
+Jovens,ML,12.7930,0.2419
+Jovens,ML,12.8906,0.3796
+Jovens,ML,12.9883,0.2913
+Jovens,ML,13.0859,0.2383
+Jovens,ML,13.1836,0.1757
+Jovens,ML,13.2812,0.2800
+Jovens,ML,13.3789,0.2688
+Jovens,ML,13.4766,0.2161
+Jovens,ML,13.5742,0.2881
+Jovens,ML,13.6719,0.2950
+Jovens,ML,13.7695,0.2600
+Jovens,ML,13.8672,0.2253
+Jovens,ML,13.9648,0.3031
+Jovens,ML,14.0625,0.2824
+Jovens,ML,14.1602,0.3070
+Jovens,ML,14.2578,0.2297
+Jovens,ML,14.3555,0.2710
+Jovens,ML,14.4531,0.3098
+Jovens,ML,14.5508,0.2390
+Jovens,ML,14.6484,0.2408
+Jovens,ML,14.7461,0.2279
+Jovens,ML,14.8438,0.3177
+Jovens,ML,14.9414,0.2775
+Jovens,ML,15.0391,0.2317
+Jovens,ML,15.1367,0.3014
+Jovens,ML,15.2344,0.2460
+Jovens,ML,15.3320,0.2339
+Jovens,ML,15.4297,0.2541
+Jovens,ML,15.5273,0.2206
+Jovens,ML,15.6250,0.2472
+Jovens,ML,15.7227,0.3030
+Jovens,ML,15.8203,0.2924
+Jovens,ML,15.9180,0.2223
+Jovens,ML,16.0156,0.2525
+Jovens,ML,16.1133,0.2233
+Jovens,ML,16.2109,0.3233
+Jovens,ML,16.3086,0.2880
+Jovens,ML,16.4062,0.2960
+Jovens,ML,16.5039,0.3104
+Jovens,ML,16.6016,0.2186
+Jovens,ML,16.6992,0.2139
+Jovens,ML,16.7969,0.3313
+Jovens,ML,16.8945,0.2877
+Jovens,ML,16.9922,0.2312
+Jovens,ML,17.0898,0.3215
+Jovens,ML,17.1875,0.3534
+Jovens,ML,17.2852,0.2400
+Jovens,ML,17.3828,0.2014
+Jovens,ML,17.4805,0.2888
+Jovens,ML,17.5781,0.2505
+Jovens,ML,17.6758,0.2665
+Jovens,ML,17.7734,0.2177
+Jovens,ML,17.8711,0.2590
+Jovens,ML,17.9688,0.2706
+Jovens,ML,18.0664,0.2198
+Jovens,ML,18.1641,0.2416
+Jovens,ML,18.2617,0.2549
+Jovens,ML,18.3594,0.2662
+Jovens,ML,18.4570,0.3134
+Jovens,ML,18.5547,0.3219
+Jovens,ML,18.6523,0.2046
+Jovens,ML,18.7500,0.2737
+Jovens,ML,18.8477,0.2776
+Jovens,ML,18.9453,0.2745
+Jovens,ML,19.0430,0.2647
+Jovens,ML,19.1406,0.2594
+Jovens,ML,19.2383,0.2695
+Jovens,ML,19.3359,0.2592
+Jovens,ML,19.4336,0.3252
+Jovens,ML,19.5312,0.3103
+Jovens,ML,19.6289,0.1903
+Jovens,ML,19.7266,0.2286
+Jovens,ML,19.8242,0.2228
+Jovens,ML,19.9219,0.2683
+Idosos,AP,0.0977,0.6331
+Idosos,AP,0.1953,0.7715
+Idosos,AP,0.2930,0.8510
+Idosos,AP,0.3906,0.8598
+Idosos,AP,0.4883,0.8823
+Idosos,AP,0.5859,0.9005
+Idosos,AP,0.6836,0.8775
+Idosos,AP,0.7812,0.8934
+Idosos,AP,0.8789,0.8817
+Idosos,AP,0.9766,0.8537
+Idosos,AP,1.0742,0.8365
+Idosos,AP,1.1719,0.7987
+Idosos,AP,1.2695,0.7822
+Idosos,AP,1.3672,0.7612
+Idosos,AP,1.4648,0.7413
+Idosos,AP,1.5625,0.7156
+Idosos,AP,1.6602,0.6905
+Idosos,AP,1.7578,0.6542
+Idosos,AP,1.8555,0.6597
+Idosos,AP,1.9531,0.6157
+Idosos,AP,2.0508,0.6217
+Idosos,AP,2.1484,0.5664
+Idosos,AP,2.2461,0.5650
+Idosos,AP,2.3438,0.5490
+Idosos,AP,2.4414,0.5072
+Idosos,AP,2.5391,0.4985
+Idosos,AP,2.6367,0.4733
+Idosos,AP,2.7344,0.4680
+Idosos,AP,2.8320,0.4494
+Idosos,AP,2.9297,0.4190
+Idosos,AP,3.0273,0.4184
+Idosos,AP,3.1250,0.4303
+Idosos,AP,3.2227,0.3724
+Idosos,AP,3.3203,0.3682
+Idosos,AP,3.4180,0.3871
+Idosos,AP,3.5156,0.3631
+Idosos,AP,3.6133,0.3732
+Idosos,AP,3.7109,0.3897
+Idosos,AP,3.8086,0.3358
+Idosos,AP,3.9062,0.3098
+Idosos,AP,4.0039,0.3125
+Idosos,AP,4.1016,0.3143
+Idosos,AP,4.1992,0.2941
+Idosos,AP,4.2969,0.3337
+Idosos,AP,4.3945,0.3311
+Idosos,AP,4.4922,0.2921
+Idosos,AP,4.5898,0.2884
+Idosos,AP,4.6875,0.3000
+Idosos,AP,4.7852,0.2590
+Idosos,AP,4.8828,0.2795
+Idosos,AP,4.9805,0.3081
+Idosos,AP,5.0781,0.2679
+Idosos,AP,5.1758,0.2773
+Idosos,AP,5.2734,0.2861
+Idosos,AP,5.3711,0.2680
+Idosos,AP,5.4688,0.2733
+Idosos,AP,5.5664,0.3001
+Idosos,AP,5.6641,0.2888
+Idosos,AP,5.7617,0.2622
+Idosos,AP,5.8594,0.2898
+Idosos,AP,5.9570,0.2764
+Idosos,AP,6.0547,0.2526
+Idosos,AP,6.1523,0.2459
+Idosos,AP,6.2500,0.2568
+Idosos,AP,6.3477,0.2875
+Idosos,AP,6.4453,0.2596
+Idosos,AP,6.5430,0.2974
+Idosos,AP,6.6406,0.2968
+Idosos,AP,6.7383,0.2846
+Idosos,AP,6.8359,0.2952
+Idosos,AP,6.9336,0.2897
+Idosos,AP,7.0312,0.3012
+Idosos,AP,7.1289,0.2925
+Idosos,AP,7.2266,0.2927
+Idosos,AP,7.3242,0.2494
+Idosos,AP,7.4219,0.2694
+Idosos,AP,7.5195,0.2950
+Idosos,AP,7.6172,0.2470
+Idosos,AP,7.7148,0.2629
+Idosos,AP,7.8125,0.2827
+Idosos,AP,7.9102,0.2820
+Idosos,AP,8.0078,0.2210
+Idosos,AP,8.1055,0.2478
+Idosos,AP,8.2031,0.2365
+Idosos,AP,8.3008,0.2827
+Idosos,AP,8.3984,0.2764
+Idosos,AP,8.4961,0.2713
+Idosos,AP,8.5938,0.3157
+Idosos,AP,8.6914,0.2339
+Idosos,AP,8.7891,0.2892
+Idosos,AP,8.8867,0.2654
+Idosos,AP,8.9844,0.2610
+Idosos,AP,9.0820,0.2506
+Idosos,AP,9.1797,0.2554
+Idosos,AP,9.2773,0.2348
+Idosos,AP,9.3750,0.2530
+Idosos,AP,9.4727,0.2641
+Idosos,AP,9.5703,0.2958
+Idosos,AP,9.6680,0.2792
+Idosos,AP,9.7656,0.2421
+Idosos,AP,9.8633,0.2536
+Idosos,AP,9.9609,0.2859
+Idosos,AP,10.0586,0.2573
+Idosos,AP,10.1562,0.2879
+Idosos,AP,10.2539,0.2840
+Idosos,AP,10.3516,0.2432
+Idosos,AP,10.4492,0.2634
+Idosos,AP,10.5469,0.2529
+Idosos,AP,10.6445,0.2767
+Idosos,AP,10.7422,0.2232
+Idosos,AP,10.8398,0.2330
+Idosos,AP,10.9375,0.2790
+Idosos,AP,11.0352,0.2754
+Idosos,AP,11.1328,0.2318
+Idosos,AP,11.2305,0.2293
+Idosos,AP,11.3281,0.2565
+Idosos,AP,11.4258,0.2873
+Idosos,AP,11.5234,0.2959
+Idosos,AP,11.6211,0.2749
+Idosos,AP,11.7188,0.2664
+Idosos,AP,11.8164,0.2823
+Idosos,AP,11.9141,0.2985
+Idosos,AP,12.0117,0.2735
+Idosos,AP,12.1094,0.2797
+Idosos,AP,12.2070,0.2156
+Idosos,AP,12.3047,0.2270
+Idosos,AP,12.4023,0.2517
+Idosos,AP,12.5000,0.2838
+Idosos,AP,12.5977,0.2532
+Idosos,AP,12.6953,0.2462
+Idosos,AP,12.7930,0.2460
+Idosos,AP,12.8906,0.2317
+Idosos,AP,12.9883,0.2902
+Idosos,AP,13.0859,0.2329
+Idosos,AP,13.1836,0.2438
+Idosos,AP,13.2812,0.2523
+Idosos,AP,13.3789,0.2836
+Idosos,AP,13.4766,0.2656
+Idosos,AP,13.5742,0.2665
+Idosos,AP,13.6719,0.2621
+Idosos,AP,13.7695,0.2266
+Idosos,AP,13.8672,0.2358
+Idosos,AP,13.9648,0.2400
+Idosos,AP,14.0625,0.2398
+Idosos,AP,14.1602,0.2420
+Idosos,AP,14.2578,0.2703
+Idosos,AP,14.3555,0.2527
+Idosos,AP,14.4531,0.2597
+Idosos,AP,14.5508,0.2457
+Idosos,AP,14.6484,0.2577
+Idosos,AP,14.7461,0.2531
+Idosos,AP,14.8438,0.2808
+Idosos,AP,14.9414,0.2507
+Idosos,AP,15.0391,0.2180
+Idosos,AP,15.1367,0.2608
+Idosos,AP,15.2344,0.2408
+Idosos,AP,15.3320,0.2295
+Idosos,AP,15.4297,0.2302
+Idosos,AP,15.5273,0.2846
+Idosos,AP,15.6250,0.2771
+Idosos,AP,15.7227,0.2758
+Idosos,AP,15.8203,0.2685
+Idosos,AP,15.9180,0.2566
+Idosos,AP,16.0156,0.2455
+Idosos,AP,16.1133,0.2402
+Idosos,AP,16.2109,0.2177
+Idosos,AP,16.3086,0.2461
+Idosos,AP,16.4062,0.2814
+Idosos,AP,16.5039,0.2669
+Idosos,AP,16.6016,0.3043
+Idosos,AP,16.6992,0.2507
+Idosos,AP,16.7969,0.2575
+Idosos,AP,16.8945,0.2423
+Idosos,AP,16.9922,0.2630
+Idosos,AP,17.0898,0.2777
+Idosos,AP,17.1875,0.2451
+Idosos,AP,17.2852,0.2646
+Idosos,AP,17.3828,0.2540
+Idosos,AP,17.4805,0.2568
+Idosos,AP,17.5781,0.2355
+Idosos,AP,17.6758,0.2693
+Idosos,AP,17.7734,0.2490
+Idosos,AP,17.8711,0.2420
+Idosos,AP,17.9688,0.2332
+Idosos,AP,18.0664,0.2520
+Idosos,AP,18.1641,0.2622
+Idosos,AP,18.2617,0.2712
+Idosos,AP,18.3594,0.2545
+Idosos,AP,18.4570,0.2463
+Idosos,AP,18.5547,0.2615
+Idosos,AP,18.6523,0.2382
+Idosos,AP,18.7500,0.2670
+Idosos,AP,18.8477,0.2519
+Idosos,AP,18.9453,0.2739
+Idosos,AP,19.0430,0.2758
+Idosos,AP,19.1406,0.2597
+Idosos,AP,19.2383,0.2355
+Idosos,AP,19.3359,0.2532
+Idosos,AP,19.4336,0.2405
+Idosos,AP,19.5312,0.2646
+Idosos,AP,19.6289,0.2576
+Idosos,AP,19.7266,0.2710
+Idosos,AP,19.8242,0.2363
+Idosos,AP,19.9219,0.2310
+Idosos,ML,0.0977,0.4975
+Idosos,ML,0.1953,0.6422
+Idosos,ML,0.2930,0.7092
+Idosos,ML,0.3906,0.8057
+Idosos,ML,0.4883,0.8728
+Idosos,ML,0.5859,0.8639
+Idosos,ML,0.6836,0.8410
+Idosos,ML,0.7812,0.7890
+Idosos,ML,0.8789,0.7062
+Idosos,ML,0.9766,0.6448
+Idosos,ML,1.0742,0.5534
+Idosos,ML,1.1719,0.5171
+Idosos,ML,1.2695,0.5135
+Idosos,ML,1.3672,0.5026
+Idosos,ML,1.4648,0.4617
+Idosos,ML,1.5625,0.4230
+Idosos,ML,1.6602,0.4354
+Idosos,ML,1.7578,0.4370
+Idosos,ML,1.8555,0.4154
+Idosos,ML,1.9531,0.4063
+Idosos,ML,2.0508,0.3530
+Idosos,ML,2.1484,0.3309
+Idosos,ML,2.2461,0.3301
+Idosos,ML,2.3438,0.3319
+Idosos,ML,2.4414,0.2926
+Idosos,ML,2.5391,0.2948
+Idosos,ML,2.6367,0.3285
+Idosos,ML,2.7344,0.2583
+Idosos,ML,2.8320,0.2611
+Idosos,ML,2.9297,0.2848
+Idosos,ML,3.0273,0.2435
+Idosos,ML,3.1250,0.2478
+Idosos,ML,3.2227,0.2737
+Idosos,ML,3.3203,0.2985
+Idosos,ML,3.4180,0.2734
+Idosos,ML,3.5156,0.2741
+Idosos,ML,3.6133,0.2897
+Idosos,ML,3.7109,0.2611
+Idosos,ML,3.8086,0.2911
+Idosos,ML,3.9062,0.2492
+Idosos,ML,4.0039,0.2752
+Idosos,ML,4.1016,0.2945
+Idosos,ML,4.1992,0.2716
+Idosos,ML,4.2969,0.2615
+Idosos,ML,4.3945,0.2519
+Idosos,ML,4.4922,0.2869
+Idosos,ML,4.5898,0.2794
+Idosos,ML,4.6875,0.2697
+Idosos,ML,4.7852,0.2779
+Idosos,ML,4.8828,0.2551
+Idosos,ML,4.9805,0.2925
+Idosos,ML,5.0781,0.2679
+Idosos,ML,5.1758,0.2843
+Idosos,ML,5.2734,0.2748
+Idosos,ML,5.3711,0.2868
+Idosos,ML,5.4688,0.2767
+Idosos,ML,5.5664,0.2895
+Idosos,ML,5.6641,0.2572
+Idosos,ML,5.7617,0.2569
+Idosos,ML,5.8594,0.2411
+Idosos,ML,5.9570,0.2693
+Idosos,ML,6.0547,0.2709
+Idosos,ML,6.1523,0.2255
+Idosos,ML,6.2500,0.2541
+Idosos,ML,6.3477,0.2694
+Idosos,ML,6.4453,0.2552
+Idosos,ML,6.5430,0.2303
+Idosos,ML,6.6406,0.2301
+Idosos,ML,6.7383,0.2526
+Idosos,ML,6.8359,0.2630
+Idosos,ML,6.9336,0.2484
+Idosos,ML,7.0312,0.2593
+Idosos,ML,7.1289,0.2319
+Idosos,ML,7.2266,0.2204
+Idosos,ML,7.3242,0.2464
+Idosos,ML,7.4219,0.2656
+Idosos,ML,7.5195,0.2398
+Idosos,ML,7.6172,0.2303
+Idosos,ML,7.7148,0.2605
+Idosos,ML,7.8125,0.3023
+Idosos,ML,7.9102,0.2913
+Idosos,ML,8.0078,0.2659
+Idosos,ML,8.1055,0.2368
+Idosos,ML,8.2031,0.2855
+Idosos,ML,8.3008,0.2716
+Idosos,ML,8.3984,0.2238
+Idosos,ML,8.4961,0.2682
+Idosos,ML,8.5938,0.2610
+Idosos,ML,8.6914,0.2736
+Idosos,ML,8.7891,0.2359
+Idosos,ML,8.8867,0.2722
+Idosos,ML,8.9844,0.2621
+Idosos,ML,9.0820,0.2303
+Idosos,ML,9.1797,0.2659
+Idosos,ML,9.2773,0.2624
+Idosos,ML,9.3750,0.2537
+Idosos,ML,9.4727,0.3052
+Idosos,ML,9.5703,0.2624
+Idosos,ML,9.6680,0.2591
+Idosos,ML,9.7656,0.2703
+Idosos,ML,9.8633,0.2409
+Idosos,ML,9.9609,0.2700
+Idosos,ML,10.0586,0.2409
+Idosos,ML,10.1562,0.2723
+Idosos,ML,10.2539,0.2742
+Idosos,ML,10.3516,0.3042
+Idosos,ML,10.4492,0.2588
+Idosos,ML,10.5469,0.2697
+Idosos,ML,10.6445,0.2447
+Idosos,ML,10.7422,0.2203
+Idosos,ML,10.8398,0.2691
+Idosos,ML,10.9375,0.2586
+Idosos,ML,11.0352,0.2652
+Idosos,ML,11.1328,0.2147
+Idosos,ML,11.2305,0.2497
+Idosos,ML,11.3281,0.2404
+Idosos,ML,11.4258,0.2482
+Idosos,ML,11.5234,0.2562
+Idosos,ML,11.6211,0.2361
+Idosos,ML,11.7188,0.2438
+Idosos,ML,11.8164,0.2439
+Idosos,ML,11.9141,0.2188
+Idosos,ML,12.0117,0.2427
+Idosos,ML,12.1094,0.2506
+Idosos,ML,12.2070,0.3078
+Idosos,ML,12.3047,0.2818
+Idosos,ML,12.4023,0.2365
+Idosos,ML,12.5000,0.2147
+Idosos,ML,12.5977,0.2462
+Idosos,ML,12.6953,0.2099
+Idosos,ML,12.7930,0.2566
+Idosos,ML,12.8906,0.2548
+Idosos,ML,12.9883,0.2685
+Idosos,ML,13.0859,0.2816
+Idosos,ML,13.1836,0.2511
+Idosos,ML,13.2812,0.2778
+Idosos,ML,13.3789,0.2301
+Idosos,ML,13.4766,0.2379
+Idosos,ML,13.5742,0.2369
+Idosos,ML,13.6719,0.2528
+Idosos,ML,13.7695,0.2673
+Idosos,ML,13.8672,0.2574
+Idosos,ML,13.9648,0.2250
+Idosos,ML,14.0625,0.2721
+Idosos,ML,14.1602,0.2944
+Idosos,ML,14.2578,0.2600
+Idosos,ML,14.3555,0.2534
+Idosos,ML,14.4531,0.2217
+Idosos,ML,14.5508,0.2162
+Idosos,ML,14.6484,0.2380
+Idosos,ML,14.7461,0.2462
+Idosos,ML,14.8438,0.2518
+Idosos,ML,14.9414,0.2437
+Idosos,ML,15.0391,0.2681
+Idosos,ML,15.1367,0.2774
+Idosos,ML,15.2344,0.2891
+Idosos,ML,15.3320,0.2576
+Idosos,ML,15.4297,0.2432
+Idosos,ML,15.5273,0.2948
+Idosos,ML,15.6250,0.3107
+Idosos,ML,15.7227,0.2859
+Idosos,ML,15.8203,0.2666
+Idosos,ML,15.9180,0.2919
+Idosos,ML,16.0156,0.2726
+Idosos,ML,16.1133,0.2533
+Idosos,ML,16.2109,0.2704
+Idosos,ML,16.3086,0.2595
+Idosos,ML,16.4062,0.2399
+Idosos,ML,16.5039,0.2573
+Idosos,ML,16.6016,0.2995
+Idosos,ML,16.6992,0.2762
+Idosos,ML,16.7969,0.2968
+Idosos,ML,16.8945,0.2643
+Idosos,ML,16.9922,0.2551
+Idosos,ML,17.0898,0.2473
+Idosos,ML,17.1875,0.2770
+Idosos,ML,17.2852,0.2494
+Idosos,ML,17.3828,0.2648
+Idosos,ML,17.4805,0.2762
+Idosos,ML,17.5781,0.2831
+Idosos,ML,17.6758,0.2615
+Idosos,ML,17.7734,0.2934
+Idosos,ML,17.8711,0.2548
+Idosos,ML,17.9688,0.2505
+Idosos,ML,18.0664,0.2331
+Idosos,ML,18.1641,0.2443
+Idosos,ML,18.2617,0.2260
+Idosos,ML,18.3594,0.2236
+Idosos,ML,18.4570,0.2559
+Idosos,ML,18.5547,0.2728
+Idosos,ML,18.6523,0.2540
+Idosos,ML,18.7500,0.2527
+Idosos,ML,18.8477,0.2177
+Idosos,ML,18.9453,0.2659
+Idosos,ML,19.0430,0.2283
+Idosos,ML,19.1406,0.2735
+Idosos,ML,19.2383,0.2576
+Idosos,ML,19.3359,0.2482
+Idosos,ML,19.4336,0.2864
+Idosos,ML,19.5312,0.2555
+Idosos,ML,19.6289,0.2993
+Idosos,ML,19.7266,0.2774
+Idosos,ML,19.8242,0.2615
+Idosos,ML,19.9219,0.2952
+Risco de quedas,AP,0.0977,0.6225
+Risco de quedas,AP,0.1953,0.7635
+Risco de quedas,AP,0.2930,0.8121
+Risco de quedas,AP,0.3906,0.8329
+Risco de quedas,AP,0.4883,0.8459
+Risco de quedas,AP,0.5859,0.8687
+Risco de quedas,AP,0.6836,0.8809
+Risco de quedas,AP,0.7812,0.8761
+Risco de quedas,AP,0.8789,0.8745
+Risco de quedas,AP,0.9766,0.8451
+Risco de quedas,AP,1.0742,0.8298
+Risco de quedas,AP,1.1719,0.7985
+Risco de quedas,AP,1.2695,0.7733
+Risco de quedas,AP,1.3672,0.6975
+Risco de quedas,AP,1.4648,0.6854
+Risco de quedas,AP,1.5625,0.6838
+Risco de quedas,AP,1.6602,0.6285
+Risco de quedas,AP,1.7578,0.6676
+Risco de quedas,AP,1.8555,0.6908
+Risco de quedas,AP,1.9531,0.6904
+Risco de quedas,AP,2.0508,0.6491
+Risco de quedas,AP,2.1484,0.6518
+Risco de quedas,AP,2.2461,0.6607
+Risco de quedas,AP,2.3438,0.6277
+Risco de quedas,AP,2.4414,0.5976
+Risco de quedas,AP,2.5391,0.5577
+Risco de quedas,AP,2.6367,0.5267
+Risco de quedas,AP,2.7344,0.4972
+Risco de quedas,AP,2.8320,0.4682
+Risco de quedas,AP,2.9297,0.4605
+Risco de quedas,AP,3.0273,0.4318
+Risco de quedas,AP,3.1250,0.4018
+Risco de quedas,AP,3.2227,0.4358
+Risco de quedas,AP,3.3203,0.4569
+Risco de quedas,AP,3.4180,0.3999
+Risco de quedas,AP,3.5156,0.4660
+Risco de quedas,AP,3.6133,0.4954
+Risco de quedas,AP,3.7109,0.4329
+Risco de quedas,AP,3.8086,0.4566
+Risco de quedas,AP,3.9062,0.3450
+Risco de quedas,AP,4.0039,0.3626
+Risco de quedas,AP,4.1016,0.3640
+Risco de quedas,AP,4.1992,0.3892
+Risco de quedas,AP,4.2969,0.3859
+Risco de quedas,AP,4.3945,0.3636
+Risco de quedas,AP,4.4922,0.3346
+Risco de quedas,AP,4.5898,0.3390
+Risco de quedas,AP,4.6875,0.3240
+Risco de quedas,AP,4.7852,0.3602
+Risco de quedas,AP,4.8828,0.3390
+Risco de quedas,AP,4.9805,0.3406
+Risco de quedas,AP,5.0781,0.3551
+Risco de quedas,AP,5.1758,0.3098
+Risco de quedas,AP,5.2734,0.3459
+Risco de quedas,AP,5.3711,0.3286
+Risco de quedas,AP,5.4688,0.2718
+Risco de quedas,AP,5.5664,0.2930
+Risco de quedas,AP,5.6641,0.3170
+Risco de quedas,AP,5.7617,0.3754
+Risco de quedas,AP,5.8594,0.3174
+Risco de quedas,AP,5.9570,0.3253
+Risco de quedas,AP,6.0547,0.3421
+Risco de quedas,AP,6.1523,0.2819
+Risco de quedas,AP,6.2500,0.2615
+Risco de quedas,AP,6.3477,0.2949
+Risco de quedas,AP,6.4453,0.2930
+Risco de quedas,AP,6.5430,0.3059
+Risco de quedas,AP,6.6406,0.2885
+Risco de quedas,AP,6.7383,0.2923
+Risco de quedas,AP,6.8359,0.2634
+Risco de quedas,AP,6.9336,0.2974
+Risco de quedas,AP,7.0312,0.2944
+Risco de quedas,AP,7.1289,0.2644
+Risco de quedas,AP,7.2266,0.2481
+Risco de quedas,AP,7.3242,0.2207
+Risco de quedas,AP,7.4219,0.3072
+Risco de quedas,AP,7.5195,0.2776
+Risco de quedas,AP,7.6172,0.2639
+Risco de quedas,AP,7.7148,0.2731
+Risco de quedas,AP,7.8125,0.2623
+Risco de quedas,AP,7.9102,0.2277
+Risco de quedas,AP,8.0078,0.2279
+Risco de quedas,AP,8.1055,0.2294
+Risco de quedas,AP,8.2031,0.2528
+Risco de quedas,AP,8.3008,0.2853
+Risco de quedas,AP,8.3984,0.2872
+Risco de quedas,AP,8.4961,0.2809
+Risco de quedas,AP,8.5938,0.2279
+Risco de quedas,AP,8.6914,0.2632
+Risco de quedas,AP,8.7891,0.2175
+Risco de quedas,AP,8.8867,0.2346
+Risco de quedas,AP,8.9844,0.2516
+Risco de quedas,AP,9.0820,0.2972
+Risco de quedas,AP,9.1797,0.2675
+Risco de quedas,AP,9.2773,0.3043
+Risco de quedas,AP,9.3750,0.2530
+Risco de quedas,AP,9.4727,0.2550
+Risco de quedas,AP,9.5703,0.2934
+Risco de quedas,AP,9.6680,0.2205
+Risco de quedas,AP,9.7656,0.2762
+Risco de quedas,AP,9.8633,0.2769
+Risco de quedas,AP,9.9609,0.2677
+Risco de quedas,AP,10.0586,0.2646
+Risco de quedas,AP,10.1562,0.2631
+Risco de quedas,AP,10.2539,0.2502
+Risco de quedas,AP,10.3516,0.2782
+Risco de quedas,AP,10.4492,0.2458
+Risco de quedas,AP,10.5469,0.2827
+Risco de quedas,AP,10.6445,0.2616
+Risco de quedas,AP,10.7422,0.2413
+Risco de quedas,AP,10.8398,0.3050
+Risco de quedas,AP,10.9375,0.3070
+Risco de quedas,AP,11.0352,0.2981
+Risco de quedas,AP,11.1328,0.2847
+Risco de quedas,AP,11.2305,0.2527
+Risco de quedas,AP,11.3281,0.2601
+Risco de quedas,AP,11.4258,0.2814
+Risco de quedas,AP,11.5234,0.2570
+Risco de quedas,AP,11.6211,0.3271
+Risco de quedas,AP,11.7188,0.2914
+Risco de quedas,AP,11.8164,0.3190
+Risco de quedas,AP,11.9141,0.3096
+Risco de quedas,AP,12.0117,0.2481
+Risco de quedas,AP,12.1094,0.2951
+Risco de quedas,AP,12.2070,0.2695
+Risco de quedas,AP,12.3047,0.2569
+Risco de quedas,AP,12.4023,0.2780
+Risco de quedas,AP,12.5000,0.2555
+Risco de quedas,AP,12.5977,0.2704
+Risco de quedas,AP,12.6953,0.2872
+Risco de quedas,AP,12.7930,0.3143
+Risco de quedas,AP,12.8906,0.2279
+Risco de quedas,AP,12.9883,0.2595
+Risco de quedas,AP,13.0859,0.2570
+Risco de quedas,AP,13.1836,0.2017
+Risco de quedas,AP,13.2812,0.2282
+Risco de quedas,AP,13.3789,0.2290
+Risco de quedas,AP,13.4766,0.2576
+Risco de quedas,AP,13.5742,0.2852
+Risco de quedas,AP,13.6719,0.2892
+Risco de quedas,AP,13.7695,0.2785
+Risco de quedas,AP,13.8672,0.2582
+Risco de quedas,AP,13.9648,0.2886
+Risco de quedas,AP,14.0625,0.2784
+Risco de quedas,AP,14.1602,0.2954
+Risco de quedas,AP,14.2578,0.2718
+Risco de quedas,AP,14.3555,0.2676
+Risco de quedas,AP,14.4531,0.2837
+Risco de quedas,AP,14.5508,0.2205
+Risco de quedas,AP,14.6484,0.2301
+Risco de quedas,AP,14.7461,0.2258
+Risco de quedas,AP,14.8438,0.2646
+Risco de quedas,AP,14.9414,0.2308
+Risco de quedas,AP,15.0391,0.2666
+Risco de quedas,AP,15.1367,0.2542
+Risco de quedas,AP,15.2344,0.2439
+Risco de quedas,AP,15.3320,0.2852
+Risco de quedas,AP,15.4297,0.2250
+Risco de quedas,AP,15.5273,0.2561
+Risco de quedas,AP,15.6250,0.2731
+Risco de quedas,AP,15.7227,0.2926
+Risco de quedas,AP,15.8203,0.2596
+Risco de quedas,AP,15.9180,0.2858
+Risco de quedas,AP,16.0156,0.2105
+Risco de quedas,AP,16.1133,0.2836
+Risco de quedas,AP,16.2109,0.3027
+Risco de quedas,AP,16.3086,0.2706
+Risco de quedas,AP,16.4062,0.2388
+Risco de quedas,AP,16.5039,0.2549
+Risco de quedas,AP,16.6016,0.2628
+Risco de quedas,AP,16.6992,0.2284
+Risco de quedas,AP,16.7969,0.2367
+Risco de quedas,AP,16.8945,0.2098
+Risco de quedas,AP,16.9922,0.2458
+Risco de quedas,AP,17.0898,0.2945
+Risco de quedas,AP,17.1875,0.2757
+Risco de quedas,AP,17.2852,0.2498
+Risco de quedas,AP,17.3828,0.2672
+Risco de quedas,AP,17.4805,0.2800
+Risco de quedas,AP,17.5781,0.2669
+Risco de quedas,AP,17.6758,0.2674
+Risco de quedas,AP,17.7734,0.2621
+Risco de quedas,AP,17.8711,0.2503
+Risco de quedas,AP,17.9688,0.2811
+Risco de quedas,AP,18.0664,0.2531
+Risco de quedas,AP,18.1641,0.2801
+Risco de quedas,AP,18.2617,0.2588
+Risco de quedas,AP,18.3594,0.2878
+Risco de quedas,AP,18.4570,0.2389
+Risco de quedas,AP,18.5547,0.2476
+Risco de quedas,AP,18.6523,0.2350
+Risco de quedas,AP,18.7500,0.2545
+Risco de quedas,AP,18.8477,0.2451
+Risco de quedas,AP,18.9453,0.2578
+Risco de quedas,AP,19.0430,0.2453
+Risco de quedas,AP,19.1406,0.2687
+Risco de quedas,AP,19.2383,0.2809
+Risco de quedas,AP,19.3359,0.2488
+Risco de quedas,AP,19.4336,0.2527
+Risco de quedas,AP,19.5312,0.2502
+Risco de quedas,AP,19.6289,0.2127
+Risco de quedas,AP,19.7266,0.1990
+Risco de quedas,AP,19.8242,0.2509
+Risco de quedas,AP,19.9219,0.2150
+Risco de quedas,ML,0.0977,0.5233
+Risco de quedas,ML,0.1953,0.6639
+Risco de quedas,ML,0.2930,0.7147
+Risco de quedas,ML,0.3906,0.7549
+Risco de quedas,ML,0.4883,0.8298
+Risco de quedas,ML,0.5859,0.8333
+Risco de quedas,ML,0.6836,0.7833
+Risco de quedas,ML,0.7812,0.6805
+Risco de quedas,ML,0.8789,0.6093
+Risco de quedas,ML,0.9766,0.5643
+Risco de quedas,ML,1.0742,0.5556
+Risco de quedas,ML,1.1719,0.4161
+Risco de quedas,ML,1.2695,0.4574
+Risco de quedas,ML,1.3672,0.5062
+Risco de quedas,ML,1.4648,0.4685
+Risco de quedas,ML,1.5625,0.3918
+Risco de quedas,ML,1.6602,0.3355
+Risco de quedas,ML,1.7578,0.3693
+Risco de quedas,ML,1.8555,0.3757
+Risco de quedas,ML,1.9531,0.3909
+Risco de quedas,ML,2.0508,0.3257
+Risco de quedas,ML,2.1484,0.3839
+Risco de quedas,ML,2.2461,0.3780
+Risco de quedas,ML,2.3438,0.3372
+Risco de quedas,ML,2.4414,0.3453
+Risco de quedas,ML,2.5391,0.3218
+Risco de quedas,ML,2.6367,0.3231
+Risco de quedas,ML,2.7344,0.3559
+Risco de quedas,ML,2.8320,0.3541
+Risco de quedas,ML,2.9297,0.3358
+Risco de quedas,ML,3.0273,0.3136
+Risco de quedas,ML,3.1250,0.2912
+Risco de quedas,ML,3.2227,0.3081
+Risco de quedas,ML,3.3203,0.3482
+Risco de quedas,ML,3.4180,0.3077
+Risco de quedas,ML,3.5156,0.2999
+Risco de quedas,ML,3.6133,0.2744
+Risco de quedas,ML,3.7109,0.2917
+Risco de quedas,ML,3.8086,0.3150
+Risco de quedas,ML,3.9062,0.2603
+Risco de quedas,ML,4.0039,0.2587
+Risco de quedas,ML,4.1016,0.2527
+Risco de quedas,ML,4.1992,0.3114
+Risco de quedas,ML,4.2969,0.2859
+Risco de quedas,ML,4.3945,0.2583
+Risco de quedas,ML,4.4922,0.3191
+Risco de quedas,ML,4.5898,0.2777
+Risco de quedas,ML,4.6875,0.3452
+Risco de quedas,ML,4.7852,0.2946
+Risco de quedas,ML,4.8828,0.2873
+Risco de quedas,ML,4.9805,0.3253
+Risco de quedas,ML,5.0781,0.2896
+Risco de quedas,ML,5.1758,0.2808
+Risco de quedas,ML,5.2734,0.2688
+Risco de quedas,ML,5.3711,0.2360
+Risco de quedas,ML,5.4688,0.2138
+Risco de quedas,ML,5.5664,0.3065
+Risco de quedas,ML,5.6641,0.3101
+Risco de quedas,ML,5.7617,0.2418
+Risco de quedas,ML,5.8594,0.2752
+Risco de quedas,ML,5.9570,0.2637
+Risco de quedas,ML,6.0547,0.3057
+Risco de quedas,ML,6.1523,0.2696
+Risco de quedas,ML,6.2500,0.2542
+Risco de quedas,ML,6.3477,0.2971
+Risco de quedas,ML,6.4453,0.2983
+Risco de quedas,ML,6.5430,0.2375
+Risco de quedas,ML,6.6406,0.2909
+Risco de quedas,ML,6.7383,0.2351
+Risco de quedas,ML,6.8359,0.2609
+Risco de quedas,ML,6.9336,0.2837
+Risco de quedas,ML,7.0312,0.2885
+Risco de quedas,ML,7.1289,0.2751
+Risco de quedas,ML,7.2266,0.3170
+Risco de quedas,ML,7.3242,0.2710
+Risco de quedas,ML,7.4219,0.2612
+Risco de quedas,ML,7.5195,0.2546
+Risco de quedas,ML,7.6172,0.2228
+Risco de quedas,ML,7.7148,0.2008
+Risco de quedas,ML,7.8125,0.2582
+Risco de quedas,ML,7.9102,0.2747
+Risco de quedas,ML,8.0078,0.2910
+Risco de quedas,ML,8.1055,0.2228
+Risco de quedas,ML,8.2031,0.2767
+Risco de quedas,ML,8.3008,0.2831
+Risco de quedas,ML,8.3984,0.2509
+Risco de quedas,ML,8.4961,0.2176
+Risco de quedas,ML,8.5938,0.2825
+Risco de quedas,ML,8.6914,0.2511
+Risco de quedas,ML,8.7891,0.2496
+Risco de quedas,ML,8.8867,0.2337
+Risco de quedas,ML,8.9844,0.2856
+Risco de quedas,ML,9.0820,0.2935
+Risco de quedas,ML,9.1797,0.2918
+Risco de quedas,ML,9.2773,0.1972
+Risco de quedas,ML,9.3750,0.2345
+Risco de quedas,ML,9.4727,0.2684
+Risco de quedas,ML,9.5703,0.2871
+Risco de quedas,ML,9.6680,0.3050
+Risco de quedas,ML,9.7656,0.2708
+Risco de quedas,ML,9.8633,0.2521
+Risco de quedas,ML,9.9609,0.2155
+Risco de quedas,ML,10.0586,0.2679
+Risco de quedas,ML,10.1562,0.3066
+Risco de quedas,ML,10.2539,0.2498
+Risco de quedas,ML,10.3516,0.2218
+Risco de quedas,ML,10.4492,0.2458
+Risco de quedas,ML,10.5469,0.2541
+Risco de quedas,ML,10.6445,0.2688
+Risco de quedas,ML,10.7422,0.2586
+Risco de quedas,ML,10.8398,0.2862
+Risco de quedas,ML,10.9375,0.2539
+Risco de quedas,ML,11.0352,0.2885
+Risco de quedas,ML,11.1328,0.2593
+Risco de quedas,ML,11.2305,0.2600
+Risco de quedas,ML,11.3281,0.2464
+Risco de quedas,ML,11.4258,0.2578
+Risco de quedas,ML,11.5234,0.2464
+Risco de quedas,ML,11.6211,0.2791
+Risco de quedas,ML,11.7188,0.2562
+Risco de quedas,ML,11.8164,0.2384
+Risco de quedas,ML,11.9141,0.2316
+Risco de quedas,ML,12.0117,0.2733
+Risco de quedas,ML,12.1094,0.2331
+Risco de quedas,ML,12.2070,0.2792
+Risco de quedas,ML,12.3047,0.2137
+Risco de quedas,ML,12.4023,0.2213
+Risco de quedas,ML,12.5000,0.2692
+Risco de quedas,ML,12.5977,0.2732
+Risco de quedas,ML,12.6953,0.2448
+Risco de quedas,ML,12.7930,0.2492
+Risco de quedas,ML,12.8906,0.2690
+Risco de quedas,ML,12.9883,0.2545
+Risco de quedas,ML,13.0859,0.2512
+Risco de quedas,ML,13.1836,0.2813
+Risco de quedas,ML,13.2812,0.2805
+Risco de quedas,ML,13.3789,0.2350
+Risco de quedas,ML,13.4766,0.3312
+Risco de quedas,ML,13.5742,0.2661
+Risco de quedas,ML,13.6719,0.2439
+Risco de quedas,ML,13.7695,0.3042
+Risco de quedas,ML,13.8672,0.2147
+Risco de quedas,ML,13.9648,0.3101
+Risco de quedas,ML,14.0625,0.2467
+Risco de quedas,ML,14.1602,0.2015
+Risco de quedas,ML,14.2578,0.2679
+Risco de quedas,ML,14.3555,0.2534
+Risco de quedas,ML,14.4531,0.2908
+Risco de quedas,ML,14.5508,0.2585
+Risco de quedas,ML,14.6484,0.2338
+Risco de quedas,ML,14.7461,0.2622
+Risco de quedas,ML,14.8438,0.2464
+Risco de quedas,ML,14.9414,0.2614
+Risco de quedas,ML,15.0391,0.2546
+Risco de quedas,ML,15.1367,0.2716
+Risco de quedas,ML,15.2344,0.2617
+Risco de quedas,ML,15.3320,0.2433
+Risco de quedas,ML,15.4297,0.2526
+Risco de quedas,ML,15.5273,0.3187
+Risco de quedas,ML,15.6250,0.2770
+Risco de quedas,ML,15.7227,0.2801
+Risco de quedas,ML,15.8203,0.2898
+Risco de quedas,ML,15.9180,0.2961
+Risco de quedas,ML,16.0156,0.2430
+Risco de quedas,ML,16.1133,0.2239
+Risco de quedas,ML,16.2109,0.2172
+Risco de quedas,ML,16.3086,0.2715
+Risco de quedas,ML,16.4062,0.2300
+Risco de quedas,ML,16.5039,0.2358
+Risco de quedas,ML,16.6016,0.2373
+Risco de quedas,ML,16.6992,0.2247
+Risco de quedas,ML,16.7969,0.2556
+Risco de quedas,ML,16.8945,0.2529
+Risco de quedas,ML,16.9922,0.2226
+Risco de quedas,ML,17.0898,0.2407
+Risco de quedas,ML,17.1875,0.2746
+Risco de quedas,ML,17.2852,0.2731
+Risco de quedas,ML,17.3828,0.2206
+Risco de quedas,ML,17.4805,0.2354
+Risco de quedas,ML,17.5781,0.2159
+Risco de quedas,ML,17.6758,0.3007
+Risco de quedas,ML,17.7734,0.2676
+Risco de quedas,ML,17.8711,0.2519
+Risco de quedas,ML,17.9688,0.2581
+Risco de quedas,ML,18.0664,0.2786
+Risco de quedas,ML,18.1641,0.2378
+Risco de quedas,ML,18.2617,0.2264
+Risco de quedas,ML,18.3594,0.2638
+Risco de quedas,ML,18.4570,0.3220
+Risco de quedas,ML,18.5547,0.2724
+Risco de quedas,ML,18.6523,0.2091
+Risco de quedas,ML,18.7500,0.2949
+Risco de quedas,ML,18.8477,0.2405
+Risco de quedas,ML,18.9453,0.3008
+Risco de quedas,ML,19.0430,0.2787
+Risco de quedas,ML,19.1406,0.2556
+Risco de quedas,ML,19.2383,0.2199
+Risco de quedas,ML,19.3359,0.2168
+Risco de quedas,ML,19.4336,0.2199
+Risco de quedas,ML,19.5312,0.2683
+Risco de quedas,ML,19.6289,0.2477
+Risco de quedas,ML,19.7266,0.2310
+Risco de quedas,ML,19.8242,0.2889
+Risco de quedas,ML,19.9219,0.2305

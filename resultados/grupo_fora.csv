@@ -1,0 +1,10 @@
+grupo_teste,filtro_escolhido,criterio,escolhido,sem_filtro,fixo_02_2,melhor_possivel
+Jovens,"0,2–2",Concordância,0.7682,0.5773,0.7682,0.8193
+Jovens,"0,2–2",Confiabilidade,0.4426,0.5937,0.4426,0.6996
+Jovens,"0,2–2",Efeito de fechar os olhos,0.2607,0.3163,0.2607,0.3677
+Idosos,"0,5–1,5",Concordância,0.8756,0.6719,0.8849,0.9249
+Idosos,"0,5–1,5",Confiabilidade,0.8063,0.8251,0.8156,0.8510
+Idosos,"0,5–1,5",Efeito de fechar os olhos,1.0053,0.9169,1.1840,1.2308
+Risco de quedas,"0,2–1,5",Concordância,0.8582,0.7115,0.8455,0.9185
+Risco de quedas,"0,2–1,5",Confiabilidade,0.6645,0.7532,0.6748,0.8631
+Risco de quedas,"0,2–1,5",Efeito de fechar os olhos,0.3080,0.0866,0.3387,0.7070

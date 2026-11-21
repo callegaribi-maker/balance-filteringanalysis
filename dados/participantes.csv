@@ -1,0 +1,77 @@
+participante,grupo,celular,sessoes,tentativas_OA,tentativas_OF
+I01,Idosos,celular 100 Hz,única,3,3
+I02,Idosos,celular 100 Hz,única,3,3
+I03,Idosos,celular 100 Hz,única,3,3
+I04,Idosos,celular 100 Hz,única,3,3
+I05,Idosos,celular 100 Hz,única,3,3
+I06,Idosos,celular 100 Hz,única,3,3
+I07,Idosos,celular 100 Hz,única,3,3
+I08,Idosos,celular 100 Hz,única,3,3
+I09,Idosos,celular 100 Hz,única,3,3
+I10,Idosos,celular 100 Hz,única,3,3
+I11,Idosos,celular 100 Hz,única,3,3
+I12,Idosos,celular 100 Hz,única,3,3
+I13,Idosos,celular 100 Hz,única,3,3
+I14,Idosos,celular 100 Hz,única,3,3
+I15,Idosos,celular 100 Hz,única,3,3
+I16,Idosos,celular 100 Hz,única,3,3
+I17,Idosos,celular 100 Hz,única,3,3
+I18,Idosos,celular 100 Hz,única,3,3
+I19,Idosos,celular 100 Hz,única,3,3
+I20,Idosos,celular 100 Hz,única,3,3
+I21,Idosos,celular 100 Hz,única,3,3
+I22,Idosos,celular 100 Hz,única,3,3
+I23,Idosos,celular 100 Hz,única,3,3
+I24,Idosos,celular 100 Hz,única,3,3
+I25,Idosos,celular 100 Hz,única,3,3
+I26,Idosos,celular 100 Hz,única,3,3
+I27,Idosos,celular 100 Hz,única,3,3
+I28,Idosos,celular 100 Hz,única,3,3
+I29,Idosos,celular 100 Hz,única,3,3
+I30,Idosos,celular 100 Hz,única,3,3
+J01,Jovens,celular 50 Hz,reteste+teste,2,2
+J02,Jovens,celular 50 Hz,teste,1,1
+J03,Jovens,celular 50 Hz,reteste+teste,2,2
+J04,Jovens,celular 50 Hz,reteste+teste,2,2
+J05,Jovens,celular 50 Hz,teste,1,1
+J06,Jovens,celular 50 Hz,reteste+teste,2,2
+J07,Jovens,celular 50 Hz,teste,1,1
+J08,Jovens,celular 50 Hz,teste,1,1
+J09,Jovens,celular 50 Hz,teste,1,1
+J10,Jovens,celular 50 Hz,reteste+teste,2,2
+J11,Jovens,celular 50 Hz,reteste+teste,2,2
+J12,Jovens,celular 50 Hz,teste,1,1
+J13,Jovens,celular 50 Hz,reteste+teste,2,2
+J14,Jovens,celular 50 Hz,teste,1,1
+J15,Jovens,celular 50 Hz,reteste+teste,2,2
+J16,Jovens,celular 50 Hz,reteste+teste,2,2
+J17,Jovens,celular 50 Hz,reteste+teste,2,2
+J18,Jovens,celular 50 Hz,teste,1,1
+J19,Jovens,celular 50 Hz,reteste+teste,2,2
+J20,Jovens,celular 50 Hz,teste,1,1
+J21,Jovens,celular 50 Hz,teste,1,1
+J22,Jovens,celular 50 Hz,teste,1,1
+J23,Jovens,celular 50 Hz,reteste+teste,2,2
+J24,Jovens,celular 50 Hz,reteste+teste,2,2
+J25,Jovens,celular 50 Hz,teste,1,1
+J26,Jovens,celular 50 Hz,teste,1,1
+J27,Jovens,celular 50 Hz,reteste+teste,2,2
+R01,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R02,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R03,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R04,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R05,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R06,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R07,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R08,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R09,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R10,Idosos com risco de quedas,celular 100 Hz,única,3,0
+R11,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R12,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R13,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R14,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R15,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R16,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R17,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R18,Idosos com risco de quedas,celular 100 Hz,única,3,3
+R19,Idosos com risco de quedas,celular 100 Hz,única,2,2

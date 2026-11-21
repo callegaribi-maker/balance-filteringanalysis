@@ -1,0 +1,7 @@
+grupo,eixo,inicio_hz,fim_hz,tentativas
+Jovens,AP,0.10,1.27,27
+Jovens,ML,0.10,0.98,27
+Idosos,AP,0.10,2.44,90
+Idosos,ML,0.20,1.37,90
+Risco de quedas,AP,0.10,2.64,56
+Risco de quedas,ML,0.10,1.07,56

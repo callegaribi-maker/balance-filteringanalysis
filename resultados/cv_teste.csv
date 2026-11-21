@@ -1,0 +1,21 @@
+metodo,criterio,mediana,ic_inf,ic_sup
+Escolha pelos quatro critérios,Concordância,0.8530,0.8024,0.8941
+Escolha pelos quatro critérios,Confiabilidade,0.6218,0.3649,0.7471
+Escolha pelos quatro critérios,Efeito de fechar os olhos,0.5769,0.2912,0.9295
+Escolha pelos quatro critérios,Separação entre grupos,0.7040,0.5957,0.7922
+Escolha só pela concordância,Concordância,0.8902,0.8627,0.9088
+Escolha só pela concordância,Confiabilidade,0.6123,0.3704,0.7356
+Escolha só pela concordância,Efeito de fechar os olhos,0.5088,0.2306,0.8565
+Escolha só pela concordância,Separação entre grupos,0.7204,0.6223,0.7978
+Sem filtro,Concordância,0.6388,0.5940,0.6751
+Sem filtro,Confiabilidade,0.6878,0.4367,0.8559
+Sem filtro,Efeito de fechar os olhos,0.4619,0.1887,0.8459
+Sem filtro,Separação entre grupos,0.4743,0.3592,0.5757
+"Fixo 0,2–2 Hz",Concordância,0.8388,0.8098,0.8607
+"Fixo 0,2–2 Hz",Confiabilidade,0.6094,0.3334,0.7848
+"Fixo 0,2–2 Hz",Efeito de fechar os olhos,0.6318,0.3451,1.0427
+"Fixo 0,2–2 Hz",Separação entre grupos,0.7031,0.6001,0.7895
+"Fixo 0,1–2 Hz",Concordância,0.8212,0.7885,0.8468
+"Fixo 0,1–2 Hz",Confiabilidade,0.4938,0.2077,0.7132
+"Fixo 0,1–2 Hz",Efeito de fechar os olhos,0.6200,0.3585,1.0526
+"Fixo 0,1–2 Hz",Separação entre grupos,0.6620,0.5608,0.7473
