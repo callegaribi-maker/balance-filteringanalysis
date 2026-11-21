@@ -7,8 +7,8 @@ import os, csv, json, base64
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RES, FIGS, PAINEL = (os.path.join(ROOT, p) for p in ('resultados', 'figuras', 'painel'))
 TABELAS = ['fatorial', 'importancia', 'literatura', 'grade', 'coerencia', 'bandas', 'cv_escolhas', 'cv_teste', 'grupo_fora', 'amostra',
-           'variaveis', 'stats_grupos', 'stats_condicoes', 'stats_dispositivos']
-SCRIPTS = ['graficos_escolha_filtro.js', 'graficos_criterios_validacao.js', 'graficos_resumo_e_abas.js', 'traducao_en.js']  # tradução por último
+           'variaveis', 'stats_grupos', 'stats_condicoes', 'stats_dispositivos', 'conversao_resumo', 'conversao_exemplo', 'conversao_ganho']
+SCRIPTS = ['graficos_escolha_filtro.js', 'graficos_criterios_validacao.js', 'graficos_resumo_e_abas.js', 'graficos_conversao.js', 'traducao_en.js']  # tradução por último
 
 dados = {}
 for t in TABELAS:

@@ -88,6 +88,7 @@ a { color: #1c5cab; }
     <button class="fx-tabbtn" role="tab" aria-controls="tab-grupos">Grupos</button>
     <button class="fx-tabbtn" role="tab" aria-controls="tab-condicoes">Olhos abertos × fechados</button>
     <button class="fx-tabbtn" role="tab" aria-controls="tab-dispositivos">Celular × plataforma</button>
+    <button class="fx-tabbtn" role="tab" aria-controls="tab-conversao">Conversão para deslocamento</button>
   </nav>
 
   <!-- ===================== AMOSTRA E DEFINIÇÕES ===================== -->
@@ -422,6 +423,63 @@ a { color: #1c5cab; }
   </section>
   </div>
 
+  <!-- ===================== CONVERSÃO PARA DESLOCAMENTO ===================== -->
+  <div class="fx-tab" id="tab-conversao" role="tabpanel" hidden>
+  <section class="fx-sec" id="conv-intro">
+    <h2>E se a aceleração fosse convertida em deslocamento (cm)?</h2>
+    <p class="fx-note">Ensaios feitos com os mesmos registros (1ª tentativa ou sessão de teste, olhos abertos, 30 s): a aceleração do celular foi integrada duas vezes para virar cm e comparada ao COP da plataforma. Sem passa-alta, o erro lento do sensor vira deriva. Com passa-alta, a amplitude passa a depender da frequência de corte: o corte de 0,2 Hz chega mais perto (×1,3), mas só se sabe disso olhando a plataforma, e mesmo assim a forma pouco lembra o COP (r ≈ 0,46). Na mesma banda, converter dá praticamente a mesma correlação que não converter: a forma é a mesma, só a escala muda.</p>
+    <div class="fx-controls">
+      <label>Grupo
+        <select class="dash-select" id="conv-grupo" aria-label="Grupo"><option value="Todos">Todos</option><option>Jovens</option><option>Idosos</option><option>Risco de quedas</option></select>
+      </label>
+    </div>
+    <div class="fx-kpis">
+      <div class="fx-kpi"><b data-draw="conv_kpi_deriva">—</b><span>Excursão AP típica em 30 s com integração direta (mediana). A plataforma mediu <span data-draw="conv_kpi_cop">—</span>.</span></div>
+      <div class="fx-kpi"><b data-draw="conv_kpi_faixa">—</b><span>Amplitude do celular convertido em relação ao COP: depende só do passa-alta escolhido.</span></div>
+      <div class="fx-kpi"><b data-draw="conv_kpi_racc">—</b><span>Correlação AP com o COP na mesma banda (0,7–1,5 Hz) sem converter; convertendo, fica em <span data-draw="conv_kpi_rconv">—</span>. Converter não acrescenta informação.</span></div>
+    </div>
+  </section>
+  <section class="fx-sec" id="conv-exemplo">
+    <h2>Um participante típico: plataforma × celular convertido</h2>
+    <p class="fx-note">Sinal AP no tempo. Escolha o método de conversão: sem passa-alta o celular "anda" dezenas de centímetros; com passa-alta forte ele fica pequeno demais. A linha tracejada é a plataforma filtrada na mesma banda que o celular. Com "Todos", o exemplo mostrado é o do grupo de idosos.</p>
+    <div class="fx-controls">
+      <label>Método de conversão
+        <select class="dash-select" id="conv-metodo" aria-label="Método de conversão" data-draw="conv_metodo_opts"></select>
+      </label>
+    </div>
+    <div class="fx-legend" data-draw="conv_ex_key">—</div>
+    <div class="fx-card"><div class="fx-chart" id="conv-ex-chart" data-draw="conv_ex_chart"></div></div>
+  </section>
+  <section class="fx-sec" id="conv-razao">
+    <h2>A amplitude em cm sai errada, e o erro depende do filtro</h2>
+    <p class="fx-note">Ponto = mediana dos participantes; linha = metade central (25% a 75%). A faixa verde marca a amplitude certa (×1). Nenhuma escolha de passa-alta acerta a amplitude de forma estável: ela só troca um erro por outro.</p>
+    <div class="fx-card"><div class="fx-chart" id="conv-razao-chart" data-draw="conv_razao_chart"></div></div>
+  </section>
+  <section class="fx-sec" id="conv-tabela">
+    <h2>Todos os ensaios</h2>
+    <p class="fx-note">r = correlação ponto a ponto com o COP (mediana dos participantes). "COP bruto" é o que a conversão tentaria recuperar; "mesma banda" é o COP filtrado igual ao celular. Razão = RMS do celular convertido ÷ RMS do COP. Em negrito, a abordagem usada no resto do painel.</p>
+    <div class="fx-wrap">
+      <table class="fx-table">
+        <thead><tr><th>Método</th><th class="fx-num">r AP (COP bruto)</th><th class="fx-num">r ML (COP bruto)</th><th class="fx-num">r AP (mesma banda)</th><th class="fx-num">r ML (mesma banda)</th><th class="fx-num">Spearman da área</th><th class="fx-num">Razão de amplitude</th><th class="fx-num">Razão (mesma banda)</th><th class="fx-num">Excursão AP</th></tr></thead>
+        <tbody data-draw="conv_tbody"></tbody>
+      </table>
+    </div>
+  </section>
+  <section class="fx-sec" id="conv-ganho">
+    <h2>Por que a dupla integração falha: ela amplifica as frequências lentas</h2>
+    <p class="fx-note">Integrar duas vezes divide cada frequência por (2πf)². A 1 Hz, 1 m/s² vira 2,5 cm; a 0,05 Hz, vira 10 m. Na faixa da oscilação postural, qualquer erro lento do sensor fica enorme: um desvio de só 0,01 m/s² vira ½·a·t² = 4,5 m em 30 s.</p>
+    <div class="fx-card"><div class="fx-chart" id="conv-ganho-chart" data-draw="conv_ganho_chart"></div></div>
+  </section>
+  <details class="fx-details" id="conv-porque" open>
+    <summary>Por que não vale converter nestes dados</summary>
+    <p><b>1. Deriva.</b> A dupla integração amplifica o ruído lento 100 a 400 vezes mais que o sinal de 1 Hz. Sem passa-alta, o "deslocamento" do celular passa de 90 cm em 30 s, contra cerca de 2 cm do COP.</p>
+    <p><b>2. O passa-alta apaga o que se queria medir.</b> Para segurar a deriva é preciso cortar as frequências lentas, onde está a maior parte da oscilação do COP. O que sobra não é mais o deslocamento em cm: a amplitude muda conforme o corte escolhido.</p>
+    <p><b>3. O celular mede inclinação, não translação.</b> Na faixa da oscilação postural, o sinal é dominado pela gravidade projetada quando o tronco inclina (g·sen θ). Integrar duas vezes trata inclinação como translação. Na banda certa, a aceleração já é proporcional ao deslocamento; integrar só muda a escala, e para o valor errado.</p>
+    <p><b>4. Mesmo convertido, não é o COP.</b> O celular está no tronco; o COP é o ponto de aplicação da força no chão e oscila mais e mais rápido que o tronco. A unidade seria a mesma (cm), a variável não.</p>
+    <p><b>5. Aparelhos diferentes.</b> Jovens: aceleração com gravidade a 50 Hz. Idosos: aceleração linear a 100 Hz. Desvios diferentes viram derivas diferentes: sem passa-alta, a deriva mediana em 30 s foi de cerca de 12 m nos jovens e de 0,4 a 0,6 m nos idosos. Isso se confundiria com diferença entre grupos.</p>
+    <p><b>O que fazer no lugar:</b> filtrar os dois sinais na mesma banda e comparar por medidas sem unidade (correlação, ICC, tamanhos de efeito, AUC) ou pela frequência mediana, que já está em Hz nos dois. Valores em cm só com um ganho calibrado contra a plataforma (cerca de 0,10–0,12 m/s² por cm no AP, na banda filtrada).</p>
+  </details>
+  </div>
 </div>
 <p class="fx-rodape">Painel gerado por <code>codigo/08_montar_painel.py</code> a partir das tabelas da pasta <code>resultados/</code>. Participantes identificados só por código (J = jovens, I = idosos, R = idosos com risco de quedas).</p>
 {{SCRIPTS}}

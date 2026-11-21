@@ -124,6 +124,20 @@ Cada participante entra com a 1ª tentativa (idosos) ou a sessão de teste (jove
 - **Entre condições (OA × OF):** Wilcoxon pareado com r bisserial de postos pareado.
 - **Entre aparelhos:** Spearman entre celular e plataforma. Para as frequências medianas, também Bland-Altman (viés e limites de concordância em Hz). Jovens e idosos são analisados separadamente, porque usaram celulares diferentes.
 
+### 3.9 Por que a aceleração não foi convertida em deslocamento (`09_conversao_deslocamento.py`)
+
+Também testamos o caminho de converter a aceleração do celular em cm, integrando duas vezes, para comparar direto com o COP. Usamos a 1ª tentativa ou a sessão de teste, com olhos abertos e 30 s. O resultado está na aba "Conversão para deslocamento".
+
+- **Integração direta (só a média removida):** em 30 s, o "deslocamento" do celular passa de 90 cm (mediana), enquanto o COP mede cerca de 2 cm. Nos jovens, cujo celular registra com gravidade, a deriva chega a cerca de 12 m.
+- **Integração com passa-alta (0,05 a 0,5 Hz em cada etapa):** a amplitude passa a depender do corte. Vai de 11 vezes maior que o COP (0,05 Hz) a 8 vezes menor (0,5 Hz). O corte de 0,2 Hz chega mais perto (×1,3), mas só se descobre isso olhando a plataforma. E mesmo nesse caso a forma pouco lembra o COP (r ≈ 0,46).
+- **Na mesma banda (0,7–1,5 Hz):** converter dá praticamente a mesma correlação que não converter (AP 0,84 × 0,87; ML 0,75 × 0,68). A forma é a mesma, só a escala muda. E a escala sai errada: cerca de um terço da amplitude do COP nessa banda.
+- **Por quê:**
+  1. A dupla integração divide cada frequência por (2πf)², o que amplifica o erro lento do sensor.
+  2. Na faixa da postura, o celular mede sobretudo a inclinação do tronco (gravidade projetada), não translação.
+  3. O tronco não é o COP.
+  4. Os dois celulares (jovens e idosos) têm desvios diferentes.
+- **Sentido dos eixos:** como o sentido dos eixos do celular em relação à plataforma não é conhecido, o sinal do resultado convertido foi escolhido de modo a favorecer a conversão.
+
 ## 4. Como refazer tudo
 
 Precisa de Python 3.10 ou mais recente.
@@ -145,7 +159,8 @@ O script roda as etapas na ordem e, no fim, recria o `index.html`. Leva cerca de
 | `05_filtros_da_literatura.py` | aplica e avalia os 7 filtros publicados | `literatura.csv` |
 | `06_variaveis_e_estatistica.py` | variáveis por participante e estatística | `variaveis.csv`, `stats_*.csv` |
 | `07_figura_antes_depois.py` | figura de exemplo, um participante típico por grupo (PT e EN) | `figuras/fig_antes_depois.png`, `fig_antes_depois_en.png` |
-| `08_montar_painel.py` | junta modelo, tabelas, figura e scripts num arquivo só | `index.html` |
+| `09_conversao_deslocamento.py` | ensaios de conversão da aceleração em cm por dupla integração | `conversao_resumo.csv`, `conversao_exemplo.csv`, `conversao_ganho.csv` |
+| `08_montar_painel.py` | junta modelo, tabelas, figura e scripts num arquivo só (roda por último) | `index.html` |
 
 Os resultados desta pasta foram gerados exatamente assim, a partir de `dados/`. Em relação à primeira versão da análise, feita direto nos `.mat`, as diferenças só aparecem na 4ª casa decimal, por causa do arredondamento dos sinais ao gravar os CSVs.
 
@@ -162,7 +177,8 @@ Para mudar só o painel (textos ou gráficos), edite os arquivos da pasta `paine
 | Grupos | variáveis por grupo, estatística, todos os filtros lado a lado | `variaveis`, `stats_grupos` |
 | Olhos abertos × fechados | efeito de fechar os olhos, por participante e por filtro | `variaveis`, `stats_condicoes` |
 | Celular × plataforma | concordância entre aparelhos por filtro, dispersão, Bland-Altman | `variaveis`, `stats_dispositivos` |
-| Amostra e definições | amostra e definição dos critérios | `amostra` |
+| Amostra e definições | amostra e definição dos critérios (primeira aba) | `amostra` |
+| Conversão para deslocamento | ensaios de dupla integração e por que não convertem bem | `conversao_*` |
 
 ## 6. Limitações
 
