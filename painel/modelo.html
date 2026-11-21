@@ -68,12 +68,19 @@ a { color: #1c5cab; }
 .fx-langbtn { font: inherit; font-size: 13px; border: 1px solid var(--color-border-line); background: var(--color-panel); color: var(--color-fg-muted); padding: 3px 9px; cursor: pointer; }
 .fx-langbtn:first-child { border-radius: 6px 0 0 6px; } .fx-langbtn:last-child { border-radius: 0 6px 6px 0; }
 .fx-langbtn.fx-langbtn-on { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
+/* aba de destaque: Amostra e definições */
+.fx-tabbtn.fx-tabbtn-destaque { background: #e8f1fc; color: #1c5cab; border-radius: 6px 6px 0 0; font-weight: var(--cds-font-weight-medium); }
+.fx-tabbtn.fx-tabbtn-destaque.fx-tabbtn-on { background: #2a78d6; color: #ffffff; border-bottom-color: #1c5cab; }
+.fx-tab-destaque .fx-details { background: var(--color-panel); border: 1px solid var(--color-border-line); border-left: 4px solid #2a78d6; border-radius: var(--cds-radius); padding: var(--cds-pad-md) var(--cds-pad-lg); }
+.fx-tab-destaque .fx-details summary { font-weight: var(--cds-font-weight-medium); }
+.fx-tab-destaque .fx-details p { color: var(--color-fg); font-size: 14px; }
 @media print { .fx-lang { display: none; } .fx-tabs { display: none; } .fx-tab { break-before: page; } }
 </style>
 </head>
 <body>
 <div class="fx">
   <nav class="fx-tabs" role="tablist" aria-label="Abas do painel">
+    <button class="fx-tabbtn fx-tabbtn-destaque" role="tab" aria-controls="tab-amostra">Amostra e definições</button>
     <button class="fx-tabbtn" role="tab" aria-controls="tab-resumo">Resumo</button>
     <button class="fx-tabbtn" role="tab" aria-controls="tab-filtro">Escolha do filtro</button>
     <button class="fx-tabbtn" role="tab" aria-controls="tab-criterios">Coerência e critérios</button>
@@ -81,11 +88,34 @@ a { color: #1c5cab; }
     <button class="fx-tabbtn" role="tab" aria-controls="tab-grupos">Grupos</button>
     <button class="fx-tabbtn" role="tab" aria-controls="tab-condicoes">Olhos abertos × fechados</button>
     <button class="fx-tabbtn" role="tab" aria-controls="tab-dispositivos">Celular × plataforma</button>
-    <button class="fx-tabbtn" role="tab" aria-controls="tab-amostra">Amostra e definições</button>
   </nav>
 
+  <!-- ===================== AMOSTRA E DEFINIÇÕES ===================== -->
+  <div class="fx-tab fx-tab-destaque" id="tab-amostra" role="tabpanel">
+  <h1 class="fx-title">Filtragem do sinal do celular × plataforma de força</h1>
+  <section class="fx-sec" id="amostra">
+    <h2>Amostra</h2>
+    <div class="fx-wrap">
+      <table class="fx-table">
+        <thead><tr><th>Grupo</th><th class="fx-num">Participantes</th><th class="fx-num">Tentativas</th><th>Protocolo</th><th>Celular</th></tr></thead>
+        <tbody data-draw="amostra_tbody"></tbody>
+      </table>
+    </div>
+    <p class="fx-note">Nas abas Grupos, Olhos abertos × fechados e Celular × plataforma, cada participante entra com a 1ª tentativa (idosos) ou a sessão de teste (jovens), para que todos os grupos tenham a mesma quantidade de registro. Um idoso com risco de quedas só tem olhos abertos.</p>
+  </section>
+  <details class="fx-details" id="definicoes" open>
+    <summary>Definições dos critérios</summary>
+    <p><b>Concordância</b>: média de três números — correlação ponto a ponto AP e ML entre celular e plataforma (mediana dos participantes) e correlação de Spearman da área da elipse entre participantes, dentro de cada grupo.</p>
+    <p><b>Confiabilidade</b>: ICC(3,1) do log da área do celular. Jovens: teste × reteste em dias diferentes. Idosos: três tentativas no mesmo dia.</p>
+    <p><b>Efeito de fechar os olhos</b>: d pareado do log da razão olhos fechados / olhos abertos, em cada grupo.</p>
+    <p><b>Separação entre grupos</b>: AUC da área com olhos abertos, na direção esperada (o grupo mais velho ou de maior risco oscila mais).</p>
+    <p><b>Celular</b>: nos jovens, aceleração com gravidade a 50 Hz; nos idosos, aceleração linear a 100 Hz. O ganho celular/plataforma na banda filtrada foi parecido nos dois (0,10–0,12 m/s² por cm no AP).</p>
+    <p><b>Variáveis</b>: área da elipse de 95%, RMS e amplitude (máximo − mínimo) em cada eixo, velocidade média do traçado (comprimento da trajetória ÷ tempo) e frequência mediana (metade da potência do sinal abaixo dela, até 10 Hz). No celular, as mesmas contas são feitas sobre a aceleração, por isso as unidades são de aceleração; só as frequências têm a mesma unidade nos dois instrumentos.</p>
+  </details>
+  </div>
+
   <!-- ===================== RESUMO ===================== -->
-  <div class="fx-tab" id="tab-resumo" role="tabpanel">
+  <div class="fx-tab" id="tab-resumo" role="tabpanel" hidden>
   <header id="topo">
     <h1 class="fx-title">Filtragem do sinal do celular × plataforma de força</h1>
     <p class="fx-lead">Numa nota de 0 a 100, o celular sem filtro ficou com
@@ -392,28 +422,6 @@ a { color: #1c5cab; }
   </section>
   </div>
 
-  <!-- ===================== AMOSTRA E DEFINIÇÕES ===================== -->
-  <div class="fx-tab" id="tab-amostra" role="tabpanel" hidden>
-  <section class="fx-sec" id="amostra">
-    <h2>Amostra</h2>
-    <div class="fx-wrap">
-      <table class="fx-table">
-        <thead><tr><th>Grupo</th><th class="fx-num">Participantes</th><th class="fx-num">Tentativas</th><th>Protocolo</th><th>Celular</th></tr></thead>
-        <tbody data-draw="amostra_tbody"></tbody>
-      </table>
-    </div>
-    <p class="fx-note">Nas abas Grupos, Olhos abertos × fechados e Celular × plataforma, cada participante entra com a 1ª tentativa (idosos) ou a sessão de teste (jovens), para que todos os grupos tenham a mesma quantidade de registro. Um idoso com risco de quedas só tem olhos abertos.</p>
-  </section>
-  <details class="fx-details" id="definicoes">
-    <summary>Definições dos critérios</summary>
-    <p><b>Concordância</b>: média de três números — correlação ponto a ponto AP e ML entre celular e plataforma (mediana dos participantes) e correlação de Spearman da área da elipse entre participantes, dentro de cada grupo.</p>
-    <p><b>Confiabilidade</b>: ICC(3,1) do log da área do celular. Jovens: teste × reteste em dias diferentes. Idosos: três tentativas no mesmo dia.</p>
-    <p><b>Efeito de fechar os olhos</b>: d pareado do log da razão olhos fechados / olhos abertos, em cada grupo.</p>
-    <p><b>Separação entre grupos</b>: AUC da área com olhos abertos, na direção esperada (o grupo mais velho ou de maior risco oscila mais).</p>
-    <p><b>Celular</b>: nos jovens, aceleração com gravidade a 50 Hz; nos idosos, aceleração linear a 100 Hz. O ganho celular/plataforma na banda filtrada foi parecido nos dois (0,10–0,12 m/s² por cm no AP).</p>
-    <p><b>Variáveis</b>: área da elipse de 95%, RMS e amplitude (máximo − mínimo) em cada eixo, velocidade média do traçado (comprimento da trajetória ÷ tempo) e frequência mediana (metade da potência do sinal abaixo dela, até 10 Hz). No celular, as mesmas contas são feitas sobre a aceleração, por isso as unidades são de aceleração; só as frequências têm a mesma unidade nos dois instrumentos.</p>
-  </details>
-  </div>
 </div>
 <p class="fx-rodape">Painel gerado por <code>codigo/08_montar_painel.py</code> a partir das tabelas da pasta <code>resultados/</code>. Participantes identificados só por código (J = jovens, I = idosos, R = idosos com risco de quedas).</p>
 {{SCRIPTS}}
